@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Feb 10 16:11:21 2020
+# Process ID: 5924
+# Current directory: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4472 D:\Stajnbrikner_studentskiRad19-20\DEMO_PROJECTS\tempAudio\tempAudio\tempAudio.xpr
+# Log file: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/vivado.log
+# Journal file: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd}
+launch_sdk -workspace D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk -hwspec D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+launch_sdk -workspace D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk -hwspec D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]

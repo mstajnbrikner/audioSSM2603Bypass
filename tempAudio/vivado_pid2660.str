@@ -1,0 +1,684 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 2660
+License: Customer
+
+Current time: 	2/24/20 11:40:41 AM CET
+Time zone: 	Central European Time (Europe/Prague)
+
+OS: Windows 8.1
+OS Version: 6.3
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 57 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files (x86)/Common Files/Oracle/Java/javapath;C:/Program Files/MIPS/Simulators/IASim/IASim_4_1_0/bin/Windows64;C:/ProgramData/Oracle/Java/javapath;C:/Python27/;C:/Program Files/TortoiseSVN/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	mstajnbrikner
+User home directory: C:/Users/mstajnbrikner
+User working directory: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/mstajnbrikner/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/mstajnbrikner/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/mstajnbrikner/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034
+
+GUI allocated memory:	108 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 499 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 53 MB (+53150kb) [00:00:23]
+// [Engine Memory]: 447 MB (+316766kb) [00:00:23]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\Stajnbrikner_studentskiRad19-20\DEMO_PROJECTS\tempAudio\tempAudio\tempAudio.xpr. Version: Vivado v2017.2 
+// Tcl Message: open_project D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 499 MB (+31071kb) [00:00:26]
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 504 MB. GUI used memory: 36 MB. Current time: 2/24/20 11:40:43 AM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 531 MB (+7972kb) [00:00:43]
+// [GUI Memory]: 57 MB (+1241kb) [00:00:43]
+// [GUI Memory]: 65 MB (+5929kb) [00:00:45]
+// [Engine Memory]: 567 MB (+9886kb) [00:00:45]
+// Tcl Message: open_project D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/clockManagerIP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 578 MB. GUI used memory: 43 MB. Current time: 2/24/20 11:41:02 AM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 735.797 ; gain = 34.848 
+// Project name: tempAudio; location: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio; part: xc7z010clg400-1
+// [Engine Memory]: 606 MB (+11172kb) [00:00:47]
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 85 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0 Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0 Adding cell -- domain.local:user:ssmClocking:1.0 - ssmClocking_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 654 MB (+18117kb) [00:02:36]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <design_1> from BD file <D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd> 
+// HMemoryUtils.trashcanNow. Engine heap size: 655 MB. GUI used memory: 46 MB. Current time: 2/24/20 11:42:52 AM CET
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:23 . Memory (MB): peak = 793.496 ; gain = 17.117 
+// 'bv' command handler elapsed time: 24 seconds
+// Elapsed time: 24 seconds
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (ZYBO_Master.xdc) elapsed time: 1.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ZYBO_Master.xdc]", 4, false); // B:i (D:JPanel, cg:JFrame)
+// [GUI Memory]: 79 MB (+10640kb) [00:02:52]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ZYBO_Master.xdc]", 4, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("ZYBO_Master.xdc", 300, 224); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 676 MB. GUI used memory: 47 MB. Current time: 2/24/20 11:43:14 AM CET
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 441, 187, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design -force'
+selectButton("PAResourceTtoZ.ValidateRSBDesign_BLOCK_DESIGN_ALREADY_IN_VALIDATED_STATE_Rerun Validate Design", "Rerun Validate Design"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 87 MB (+4349kb) [00:03:15]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Validate Design : addNotify
+// Tcl Message: validate_bd_design -force 
+dismissDialog("Validate Design"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 691 MB (+5004kb) [00:03:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 48 MB. Current time: 2/24/20 11:43:34 AM CET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ak:q (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ak:q)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Project"); // ak:q (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd>  
+// x:aN (cg:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bs:g (cg:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x:aN (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// 'cp' command handler elapsed time: 6 seconds
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// bs:g (cg:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 738 MB (+12930kb) [00:03:27]
+// Tcl Message: VHDL Output written to : D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/hdl/design_1.vhd VHDL Output written to : D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ssmClocking_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 . 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: Exporting to file D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 24 11:43:51 2020] Launched synth_1... Run output will be captured here: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/synth_1/runme.log [Mon Feb 24 11:43:51 2020] Launched impl_1... Run output will be captured here: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 876.309 ; gain = 28.953 
+// Elapsed time: 10 seconds
+dismissDialog("Generate Bitstream"); // bs:g (cg:JFrame)
+// [GUI Memory]: 92 MB (+587kb) [00:03:36]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 89 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 386, 145, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 367, 138, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 322, 135, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 768 MB. GUI used memory: 49 MB. Current time: 2/24/20 11:45:29 AM CET
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bs:g (cg:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 841 MB (+69203kb) [00:05:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 49 MB. Current time: 2/24/20 11:45:49 AM CET
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 979 MB (+100715kb) [00:05:36]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// [Engine Memory]: 1,384 MB (+373165kb) [00:05:46]
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,384 MB. GUI used memory: 49 MB. Current time: 2/24/20 11:46:02 AM CET
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,465 MB (+12331kb) [00:05:47]
+// Xgd.load filename: C:/Xilinx/Vivado/2017.2/data/parts/xilinx/zynq/devint/zynq/xc7z010/xc7z010.xgd; ZipEntry: xc7z010_detail.xgd elapsed time: 0.9s
+// [GUI Memory]: 101 MB (+5039kb) [00:05:50]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Device 21-403] Loading part xc7z010clg400-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034/dcp11/design_1_wrapper_board.xdc] Finished Parsing XDC File [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034/dcp11/design_1_wrapper_board.xdc] Parsing XDC File [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034/dcp11/design_1_wrapper_early.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1508.727 ; gain = 422.449 
+// Tcl Message: Finished Parsing XDC File [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034/dcp11/design_1_wrapper_early.xdc] Parsing XDC File [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034/dcp11/design_1_wrapper.xdc] Finished Parsing XDC File [D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/.Xil/Vivado-2660-rtrkos034/dcp11/design_1_wrapper.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.257 . Memory (MB): peak = 1512.910 ; gain = 4.184 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.257 . Memory (MB): peak = 1512.910 ; gain = 4.184 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 2 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 2 instances  
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1650.441 ; gain = 753.137 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 114 MB (+7839kb) [00:05:56]
+// 'dH' command handler elapsed time: 27 seconds
+// Elapsed time: 27 seconds
+dismissDialog("Open Implemented Design"); // bs:g (cg:JFrame)
+// Elapsed time: 56 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g:JCheckBox (JPanel:JComponent, X:p): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+// [GUI Memory]: 120 MB (+64kb) [00:06:59]
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file mkdir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk 
+// Tcl Message: file copy -force D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.sysdef D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk -hwspec D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk -hwspec D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 129 MB (+3607kb) [00:07:11]
+// Elapsed time: 56 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Elapsed time: 293 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 32, true); // u:M (JViewport:JComponent, cg:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bs:g (cg:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2017.2   **** Build date : Jun 15 2017-18:53:26     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A42845A 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// [Engine Memory]: 1,687 MB (+156163kb) [00:13:10]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z010_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bs:g (cg:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 140 MB (+5035kb) [00:13:13]
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,694 MB. GUI used memory: 94 MB. Current time: 2/24/20 11:53:30 AM CET
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z010_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A42845A 
+// n:a (cg:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A42845A 
+// Tcl Message: ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210279A42845A. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-register this hardware target. 
+// Tcl Message: ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors. 
+// n:a (cg:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 276 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, n:a)
+dismissDialog("Close Hardware Target"); // n:a (cg:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, n:a)
+dismissDialog("Close Hardware Target"); // n:a (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,712 MB. GUI used memory: 94 MB. Current time: 2/24/20 11:59:00 AM CET
+// Elapsed time: 66 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A42845A 
+// TclEventType: HW_SERVER_UPDATE
+// n:a (cg:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 17 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, n:a)
+dismissDialog("Close Hardware Target"); // n:a (cg:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z010_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// [GUI Memory]: 148 MB (+674kb) [00:20:22]
+// Elapsed time: 1078 seconds
+selectCodeEditor("ZYBO_Master.xdc", 395, 337); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 406, 314); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 406, 328); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 402, 309); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("ZYBO_Master.xdc", 432, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 418, 248); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 342, 125); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 66 seconds
+selectCodeEditor("ZYBO_Master.xdc", 367, 273); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 374, 267); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 373, 280); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd} 
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+// Elapsed time: 10 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 211, 123, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// aP:p (cg:JFrame): Create Port: addNotify
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "RECDAT", true); // X:JTextField (JPanel:JComponent, aP:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aP:p)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Create Port"); // aP:p (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir I RECDAT 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 287, 187, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 199, 215, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// aP:p (cg:JFrame): Create Port: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, (String) null); // X:JTextField (JPanel:JComponent, aP:p)
+// TclEventType: DG_GRAPH_GENERATED
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "PBDAT"); // X:JTextField (JPanel:JComponent, aP:p)
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_DIRECTION, "Output", 1); // e:JComboBox (JPanel:JComponent, aP:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aP:p)
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Create Port"); // aP:p (cg:JFrame)
+// Tcl Message: create_bd_port -dir O PBDAT 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 91, 74, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// cZ:p (cg:JFrame): Make Connecton: addNotify
+selectCheckBoxTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, Ports, PBDAT]", 2, false, true, ui.utils.TriState.True); // dl:a (JViewport:JComponent, cZ:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, cZ:p)
+dismissDialog("Make Connecton"); // cZ:p (cg:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_ports RECDAT] [get_bd_ports PBDAT] 
+// Elapsed time: 32 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1177, 165, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_nets RECDAT_1] [get_bd_ports PBDAT] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 634, 47, 1270, 587, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, "Create Port..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// aP:p (cg:JFrame): Create Port: addNotify
+selectComboBox(PAResourceAtoD.CreateRSBPortDialog_DIRECTION, "Output", 1); // e:JComboBox (JPanel:JComponent, aP:p)
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "LED", true); // X:JTextField (JPanel:JComponent, aP:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aP:p)
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Create Port"); // aP:p (cg:JFrame)
+// Tcl Message: create_bd_port -dir O LED 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: connect_bd_net [get_bd_ports RECDAT] [get_bd_ports LED] 
+// Tcl Message: endgroup 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ZYBO_Master.xdc]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ZYBO_Master.xdc]", 4, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("ZYBO_Master.xdc", 479, 205); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,770 MB. GUI used memory: 97 MB. Current time: 2/24/20 12:21:20 PM CET
+selectCodeEditor("ZYBO_Master.xdc", 9, 195); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("ZYBO_Master.xdc", 28, 192); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 332, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Elapsed time: 20 seconds
+selectCodeEditor("ZYBO_Master.xdc", 432, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 424, 203); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 421, 204); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 380, 192); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 367, 179); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 366, 172); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("ZYBO_Master.xdc", 365, 168); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton:JButton (NullPanel:JPanel, cg:JFrame)
