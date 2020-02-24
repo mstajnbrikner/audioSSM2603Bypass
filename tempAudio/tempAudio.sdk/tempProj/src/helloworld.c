@@ -146,7 +146,7 @@ int main(void)
 	}
 
 
-	usleep(500000);
+	usleep(1000000);
 
 
 	//R9

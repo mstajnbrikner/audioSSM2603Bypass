@@ -1,4 +1,4 @@
-13:36:05 **** Build of project tempProj_bsp ****
+14:49:54 **** Build of project tempProj_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
@@ -69,7 +69,7 @@ make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm
 make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Compiling xadcps"
 'Finished building libraries'
-13:36:15 **** Build of configuration Debug for project tempProj ****
+14:50:15 **** Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -94,7 +94,12 @@ arm-none-eabi-size tempProj.elf  |tee "tempProj.elf.size"
   19384	   1148	  22568	  43100	   a85c	tempProj.elf
 'Finished building: tempProj.elf.size'
 ' '
-13:36:59 **** Auto Build of configuration Debug for project tempProj ****
+14:50:17 **** Auto Build of configuration Debug for project tempProj ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Ništa za napraviti za `main-build'.
+14:50:26 **** Auto Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -114,7 +119,17 @@ arm-none-eabi-size tempProj.elf  |tee "tempProj.elf.size"
   34300	   2204	  22712	  59216	   e750	tempProj.elf
 'Finished building: tempProj.elf.size'
 ' '
-13:37:23 **** Auto Build of configuration Debug for project tempProj ****
+14:52:33 **** Incremental Build of configuration Debug for project tempProj ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Ništa za napraviti za `main-build'.
+14:56:15 **** Incremental Build of configuration Debug for project tempProj ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Ništa za napraviti za `main-build'.
+14:59:15 **** Auto Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -134,18 +149,13 @@ arm-none-eabi-size tempProj.elf  |tee "tempProj.elf.size"
   34300	   2204	  22712	  59216	   e750	tempProj.elf
 'Finished building: tempProj.elf.size'
 ' '
-13:37:30 **** Incremental Build of configuration Debug for project tempProj ****
+14:59:42 **** Incremental Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for `main-build'.
-13:38:24 **** Incremental Build of configuration Debug for project tempProj ****
+make: Ništa za napraviti za `main-build'.
+14:59:52 **** Incremental Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for `main-build'.
-13:38:42 **** Incremental Build of configuration Debug for project tempProj ****
-make pre-build main-build 
-a9-linaro-pre-build-step
-' '
-make: Nothing to be done for `main-build'.
+make: Ništa za napraviti za `main-build'.

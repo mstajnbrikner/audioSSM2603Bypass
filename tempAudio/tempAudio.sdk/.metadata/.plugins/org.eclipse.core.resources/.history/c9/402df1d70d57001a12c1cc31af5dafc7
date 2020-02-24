@@ -83,7 +83,7 @@ int main(void)
 	}
 
 	//R4
-	Status = SSM2603_I2C_WriteToRegister(0x04, 0x001A); //0x0012 bez bypass-a / 0x001A sa bypass-om
+	Status = SSM2603_I2C_WriteToRegister(0x04, 0x0012); //0x0012 bez bypass-a / 0x001A sa bypass-om
 
 	if(Status != XST_SUCCESS)
 	{

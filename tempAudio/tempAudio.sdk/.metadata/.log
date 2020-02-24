@@ -1,60 +1,60 @@
-!SESSION 2020-02-24 13:35:26.525 -----------------------------------------------
+!SESSION 2020-02-24 14:47:53.262 -----------------------------------------------
 eclipse.buildId=2017.2
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk
 
-!ENTRY org.eclipse.ui 2 0 2020-02-24 13:35:28.004
+!ENTRY org.eclipse.ui 2 0 2020-02-24 14:47:54.961
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2020-02-24 13:35:28.005
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-02-24 14:47:54.961
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY org.eclipse.ui 2 0 2020-02-24 13:35:28.584
+!ENTRY org.eclipse.ui 2 0 2020-02-24 14:47:55.558
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2020-02-24 13:35:28.584
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-02-24 14:47:55.558
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:33.141
-!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:01.787
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:33.142
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:01.791
 !MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:33.611
-!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:02.179
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:33.612
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:02.183
 !MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:33.613
-!MESSAGE XSCT Command: [setws D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk], Thread: Thread-14
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:02.189
+!MESSAGE XSCT Command: [setws D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk], Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:33.615
-!MESSAGE XSCT command with result: [setws D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk], Result: [null, ]. Thread: Thread-14
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:02.206
+!MESSAGE XSCT command with result: [setws D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk], Result: [null, ]. Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:34.512
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:02.465
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-8
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.794
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.548
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-8
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.804
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.575
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-8
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.806
-!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z010",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.581
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z010",
 "family": "zynq",
-"timestamp": "Mon Feb 24 13:32:36 2020",
+"timestamp": "Mon Feb 24 14:42:54 2020",
 "vivado_version": "2017.2",
 "part": "xc7z010clg400-1",
-}]. Thread: Worker-6
+}]. Thread: Worker-8
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.808
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.587
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-8
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.819
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"clk_wiz_0": {"hier_name": "clk_wiz_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.602
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"clk_wiz_0": {"hier_name": "clk_wiz_0",
 "type": "clk_wiz",
 "version": "5.4",
 "ip_type": "PERIPHERAL",
@@ -249,13 +249,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Stajnbrikner_
 "version": "1.00.a",
 "ip_type": "PERIPHERAL",
 },
-}]. Thread: Worker-6
+}]. Thread: Worker-8
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.895
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.745
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.907
-!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.762
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
 "base": "0xF8008000",
 "high": "0xF8008FFF",
 "size": "4096",
@@ -565,11 +565,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Stajnbrikner_
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.929
-!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.820
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.933
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.830
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
 "ps7_afi_1": {},
 "ps7_afi_2": {},
 "ps7_afi_3": {},
@@ -599,11 +599,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Stajnbrikner_
 "ps7_xadc_0": {},
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.935
-!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.835
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:35.939
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:48:04.843
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
 "ps7_afi_1": {},
 "ps7_afi_2": {},
 "ps7_afi_3": {},
@@ -633,11 +633,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Stajnbrikner_
 "ps7_xadc_0": {},
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.793
-!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.762
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.801
-!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos901_xilinx_v1_0": {"name": "freertos901_xilinx",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.777
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos901_xilinx_v1_0": {"name": "freertos901_xilinx",
 "version": "1.0",
 "desc": "FreeRTOS is a market leading open source RTOS",
 "compilerflags": "",
@@ -669,46 +669,46 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Stajnbrikner_
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.821
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.794
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.823
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.799
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.828
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.809
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.829
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.815
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.831
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.819
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.832
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.825
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.834
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.830
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.836
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.837
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.837
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.842
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.839
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.847
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.845
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.859
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.847
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.865
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:52.848
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:35.870
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:53.111
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:36.109
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -892,230 +892,254 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:53.115
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:36.124
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:53.136
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:36.160
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:53.138
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:36.166
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:53.159
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:36.191
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.553
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:38.897
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.555
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:38.904
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.613
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:38.923
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.615
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:38.929
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.734
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.186
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.736
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.192
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.806
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.250
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:55.808
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.257
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:56.934
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.542
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:56.936
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.548
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.069
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.759
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.071
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.765
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.206
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.939
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.208
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:39.946
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.425
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:40.095
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.428
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:40.101
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.981
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:40.217
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:57.983
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:40.224
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.014
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:40.466
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.016
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:40.472
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.173
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.060
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.175
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.066
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.213
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.237
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.216
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.243
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.486
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.367
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.488
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.373
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.750
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.518
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.752
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.524
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.870
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.653
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:58.872
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.660
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:59.054
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.859
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:35:59.056
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:41.866
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.085
-!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw tempProj_bsp -dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp -processor ps7_cortexa9_0 -os standalone -app hello_world], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.452
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.106
-!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw tempProj_bsp -dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp -processor ps7_cortexa9_0 -os standalone -app hello_world], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.458
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.177
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.693
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.180
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.701
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.181
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.789
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.183
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.796
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.985
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:42.992
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.227
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw tempProj_bsp -dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp -processor ps7_cortexa9_0 -os standalone -app hello_world], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.256
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw tempProj_bsp -dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp -processor ps7_cortexa9_0 -os standalone -app hello_world], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.426
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.432
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.436
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.442
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.3",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.184
-!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:48.446
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:03.912
-!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:51.421
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.340
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.713
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.342
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.719
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.343
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.724
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.345
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {}]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.731
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.346
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.736
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.349
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.743
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.349
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.748
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.352
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {}]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.755
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.353
-!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.760
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.354
-!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.766
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.377
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.810
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.380
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.820
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.380
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.827
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.383
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.3",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.383
-!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.844
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.385
-!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.852
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.386
-!MESSAGE XSCT Command: [::hsi::utils::opensw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.858
+!MESSAGE XSCT Command: [::hsi::utils::opensw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.387
-!MESSAGE XSCT command with result: [::hsi::utils::opensw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.865
+!MESSAGE XSCT command with result: [::hsi::utils::opensw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.388
-!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss -app hello_world -processor ps7_cortexa9_0 -os standalone -dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj/src], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:52.872
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss -app hello_world -processor ps7_cortexa9_0 -os standalone -dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/src], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.462
-!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss -app hello_world -processor ps7_cortexa9_0 -os standalone -dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj/src], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.003
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss -app hello_world -processor ps7_cortexa9_0 -os standalone -dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/src], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.678
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.358
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.680
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.368
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.681
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.376
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.684
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.385
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.3",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.690
-!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.415
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.693
-!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.423
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.694
-!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.429
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.700
-!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"ps7_afi_0": {"name": "generic",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.441
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"ps7_afi_0": {"name": "generic",
 "ver": "2.0",
 },
 "ps7_afi_1": {"name": "generic",
@@ -1204,11 +1228,11 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.701
-!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.447
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.783
-!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"clk_wiz_0": {"version": "5.4",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.555
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"clk_wiz_0": {"version": "5.4",
 "driver_info": {"generic": {"name": "generic",
 "version": "2.0",
 "repo": "C:/Xilinx/SDK/2017.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
@@ -1539,61 +1563,61 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.808
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.655
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.810
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.663
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.811
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.669
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.814
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.676
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.3",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.817
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.689
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.820
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.697
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.857
-!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.809
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:04.859
-!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:53.816
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.261
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.611
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.264
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.623
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.265
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.631
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.268
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.644
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.3",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.272
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.662
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.274
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.674
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.301
-!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.759
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:36:05.304
-!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:49:54.770
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.414
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:54.971
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1620,7 +1644,7 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.532
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.231
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1631,7 +1655,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.537
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.249
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1642,7 +1666,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.599
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.435
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1653,7 +1677,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.603
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.447
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1664,7 +1688,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.649
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.579
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1675,7 +1699,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.653
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.594
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1686,7 +1710,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.701
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.732
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1697,7 +1721,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.705
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.746
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1708,7 +1732,10 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.754
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 14:49:55.755
+!MESSAGE Indexed 'tempProj' (2 sources, 43 headers) in 1,04 sec: 1.293 declarations; 2.262 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.915
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1719,7 +1746,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.758
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:55.929
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1730,7 +1757,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.810
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.101
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1741,7 +1768,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.814
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.117
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1752,7 +1779,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.864
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.283
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1763,7 +1790,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.868
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.297
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1774,7 +1801,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.917
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.485
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1785,7 +1812,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.920
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.499
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1796,7 +1823,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.971
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.671
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1807,7 +1834,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:05.974
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.686
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1818,7 +1845,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.024
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.848
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1829,7 +1856,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.028
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:56.863
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1839,8 +1866,11 @@ java.lang.NullPointerException
 	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 14:49:57.043
+!MESSAGE Indexed 'tempProj_bsp' (91 sources, 58 headers) in 1,26 sec: 2.831 declarations; 16.193 references; 44 unresolved inclusions; 3 syntax errors; 51 unresolved names (0,27%)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.185
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.395
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1851,7 +1881,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.189
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.406
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1862,7 +1892,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.241
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.528
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1873,7 +1903,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.245
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.541
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1884,7 +1914,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.294
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.669
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1895,7 +1925,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.298
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.685
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1906,7 +1936,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.334
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:57.762
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1917,7 +1947,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.415
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.109
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1928,7 +1958,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.443
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.211
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1939,7 +1969,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.447
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.222
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1950,7 +1980,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.480
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.302
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1961,7 +1991,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.496
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.344
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1972,7 +2002,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.500
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.356
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1983,7 +2013,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.536
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.438
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -1994,7 +2024,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.570
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.519
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2005,7 +2035,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.573
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.529
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2016,7 +2046,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:06.609
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:58.607
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2027,7 +2057,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:07.229
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:59.811
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2038,7 +2068,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:07.233
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:59.824
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2049,7 +2079,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:07.269
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:49:59.906
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2060,7 +2090,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:07.915
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:01.441
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2071,7 +2101,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:07.919
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:01.453
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2082,7 +2112,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:07.956
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:01.537
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2093,7 +2123,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.026
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.439
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2104,7 +2134,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.031
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.452
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2115,7 +2145,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.072
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.537
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2126,7 +2156,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.326
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.946
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2137,7 +2167,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.327
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.962
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2148,7 +2178,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.328
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.971
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2159,7 +2189,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.329
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.981
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2170,7 +2200,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.331
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:03.991
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2181,7 +2211,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.332
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:04.003
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2192,7 +2222,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.333
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:04.013
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2203,7 +2233,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.721
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:04.756
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2214,7 +2244,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.725
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:04.766
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2225,7 +2255,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:09.761
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:04.846
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2236,7 +2266,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:10.131
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:05.566
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2247,7 +2277,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:10.134
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:05.577
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2258,7 +2288,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:10.171
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:05.654
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2269,7 +2299,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:10.539
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:06.326
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2280,7 +2310,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:10.543
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:06.337
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2291,7 +2321,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:10.617
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:06.466
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2302,7 +2332,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:13.588
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:12.132
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2313,7 +2343,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:13.591
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:12.142
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2324,7 +2354,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:13.628
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:12.219
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2335,7 +2365,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:14.434
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:13.642
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2346,7 +2376,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:14.437
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:13.656
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2357,7 +2387,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:14.473
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:13.730
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2368,7 +2398,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:15.235
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:15.056
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2379,7 +2409,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 13:36:15.277
+!ENTRY org.eclipse.cdt.core 4 0 2020-02-24 14:50:15.096
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2404,13 +2434,7 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 13:36:15.872
-!MESSAGE Indexed 'tempProj' (2 sources, 43 headers) in 0.502 sec: 1,293 declarations; 2,262 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
-
-!ENTRY org.eclipse.cdt.core 1 0 2020-02-24 13:36:16.900
-!MESSAGE Indexed 'tempProj_bsp' (91 sources, 114 headers) in 1.01 sec: 3,883 declarations; 17,322 references; 60 unresolved inclusions; 5 syntax errors; 62 unresolved names (0.29%)
-
-!ENTRY org.eclipse.debug.ui 4 0 2020-02-24 13:38:05.713
+!ENTRY org.eclipse.debug.ui 4 0 2020-02-24 14:52:30.069
 !MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
 !STACK 1
 org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
@@ -2462,17 +2486,17 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
-!SUBENTRY 1 org.eclipse.core.expressions 4 201 2020-02-24 13:38:05.713
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2020-02-24 14:52:30.070
 !MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
 
-!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 13:38:25.137
+!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 14:52:34.069
 !MESSAGE Updating toolusage
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.141
-!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.084
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.148
-!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.098
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
 "PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
 "PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
 "PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
@@ -2484,61 +2508,61 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 "PCW_FPGA0_PERIPHERAL_FREQMHZ": "12.288",
 "PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
 "PCW_UIPARAM_DDR_FREQ_MHZ": "525",
-}]. Thread: Worker-0
+}]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.149
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.108
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.151
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.119
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.152
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.128
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.156
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.139
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.157
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.148
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.159
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.159
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.160
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.168
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.162
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.179
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.163
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.188
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.165
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.199
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.166
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.208
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.168
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.218
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.169
-!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.226
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.173
-!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.239
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
 "index": "0",
 },
 "ps7_cortexa9_1": {"bscan": "",
 "index": "1",
 },
-}]. Thread: Worker-0
+}]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.174
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.250
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.187
-!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.277
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
 "base": "0xF8008000",
 "high": "0xF8008FFF",
 "size": "4096",
@@ -2846,353 +2870,796 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 "acctype": "",
 "tz": "",
 },
-}]. Thread: Worker-0
+}]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.189
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.284
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.191
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.292
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.192
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.298
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.197
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.305
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.198
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.311
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.200
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.319
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.201
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.324
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.203
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.332
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.204
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.337
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.206
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.345
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.207
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.350
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.209
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.357
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.213
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.373
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.216
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.380
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.219
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.388
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.225
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.400
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.229
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.407
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.310
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.557
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.312
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.565
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.318
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.576
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.319
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.582
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.334
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.609
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-0
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.335
-!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.616
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.356
-!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.656
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.358
-!MESSAGE XSCT Command: [fpga -state], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.662
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:25.361
-!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is not configured]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.671
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-1
 
-!ENTRY org.eclipse.tcf.debug.ui 4 0 2020-02-24 13:38:28.204
-!MESSAGE Unhandled exception in TCF UI
-!STACK 0
-java.lang.NullPointerException
-	at org.eclipse.tcf.internal.cdt.ui.TCFBreakpointActions$RunControlListener.<init>(TCFBreakpointActions.java:218)
-	at org.eclipse.tcf.internal.cdt.ui.TCFBreakpointActions$1.onConnected(TCFBreakpointActions.java:281)
-	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onConnected(TCFModelManager.java:64)
-	at org.eclipse.tcf.internal.debug.model.TCFLaunch$15.start(TCFLaunch.java:447)
-	at org.eclipse.tcf.internal.debug.model.TCFLaunch$LaunchStep.done(TCFLaunch.java:113)
-	at org.eclipse.tcf.internal.debug.model.TCFLaunch$LaunchStep.run(TCFLaunch.java:121)
-	at org.eclipse.tcf.internal.debug.model.TCFLaunch.runLaunchSequence(TCFLaunch.java:491)
-	at com.xilinx.sdk.tcf.debug.BaseTcfLaunch.done(BaseTcfLaunch.java:150)
-	at com.xilinx.sdk.tcf.debug.BaseTcfLaunch$5.run(BaseTcfLaunch.java:142)
-	at com.xilinx.sdk.tcf.debug.BaseTcfLaunch$1.run(BaseTcfLaunch.java:78)
-	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
-	at java.lang.Thread.run(Thread.java:745)
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.677
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 13:38:42.972
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.684
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.691
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.705
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.712
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.719
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.725
+!MESSAGE XSCT Command: [version], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.741
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.747
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.760
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.766
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.794
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.800
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.814
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.819
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.847
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.853
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.867
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.872
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.900
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.906
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.920
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.925
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.953
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.959
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.972
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:34.977
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.005
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.011
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.024
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.030
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.059
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.065
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.093
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.099
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.106
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.112
+!MESSAGE XSCT Command: [source D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.121
+!MESSAGE XSCT command with result: [source D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.127
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.166
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.171
+!MESSAGE XSCT Command: [loadhw -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.215
+!MESSAGE XSCT command with result: [loadhw -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.221
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.229
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.235
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.273
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.279
+!MESSAGE XSCT Command: [stop], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.311
+!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.317
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.715
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.724
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.739
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.745
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.781
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.787
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.984
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:35.990
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.025
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.031
+!MESSAGE XSCT Command: [dow D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.238
+!MESSAGE XSCT command with result: [dow D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.244
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.251
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.344
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.388
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.394
+!MESSAGE XSCT Command: [con], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:52:36.428
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:17.763
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-159
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:17.777
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-159
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 14:56:18.777
 !MESSAGE Updating toolusage
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.973
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.792
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.975
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.817
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.976
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.830
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.982
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.860
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.983
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.867
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.989
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.882
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:42.990
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.888
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.006
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.916
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.007
-!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.922
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.025
-!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.964
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.026
-!MESSAGE XSCT Command: [fpga -state], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.970
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.029
-!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.979
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.030
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.985
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.032
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.992
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.033
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:18.998
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.039
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.012
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.040
-!MESSAGE XSCT Command: [version -server], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.018
+!MESSAGE XSCT Command: [version -server], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.043
-!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.025
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.043
-!MESSAGE XSCT Command: [version], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.030
+!MESSAGE XSCT Command: [version], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.044
-!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.037
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.046
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.043
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.052
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.056
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.052
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.062
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.068
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.090
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.069
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.096
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.075
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.110
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.076
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.115
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.094
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.143
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.095
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.149
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.101
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.162
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.102
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.168
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.118
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.196
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.119
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.202
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.125
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.215
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.126
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.221
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.141
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.249
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.142
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.254
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.148
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.267
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.148
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.273
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.163
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.301
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.164
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.307
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.170
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279A42845A]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.320
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.171
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.325
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.186
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.353
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
-     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.187
-!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.358
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.205
-!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.387
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.206
-!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.392
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.208
-!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.409
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.209
-!MESSAGE XSCT Command: [source D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.415
+!MESSAGE XSCT Command: [source D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.210
-!MESSAGE XSCT command with result: [source D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.422
+!MESSAGE XSCT command with result: [source D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.211
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.427
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.230
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.463
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.232
-!MESSAGE XSCT Command: [loadhw -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:19.469
+!MESSAGE XSCT Command: [loadhw -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.258
-!MESSAGE XSCT command with result: [loadhw -hw D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.166
+!MESSAGE XSCT command with result: [loadhw -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_0]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.258
-!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.172
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.260
-!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.184
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.261
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.189
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.283
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.230
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.284
-!MESSAGE XSCT Command: [stop], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.236
+!MESSAGE XSCT Command: [stop], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.302
-!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.262
+!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.303
-!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.268
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.556
-!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.932
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.556
-!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.939
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.562
-!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.957
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.562
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:21.964
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.583
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.000
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.584
-!MESSAGE XSCT Command: [rst -processor], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.006
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.614
-!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.046
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.615
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.051
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.654
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.088
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.656
-!MESSAGE XSCT Command: [dow D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.094
+!MESSAGE XSCT Command: [dow D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.843
-!MESSAGE XSCT command with result: [dow D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.256
+!MESSAGE XSCT command with result: [dow D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.844
-!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.262
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.845
-!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.269
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.873
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.294
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.901
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.358
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.901
-!MESSAGE XSCT Command: [con], Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.367
+!MESSAGE XSCT Command: [con], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:38:43.923
-!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:56:22.426
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 13:42:49.689
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:54.230
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-213
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:54.243
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-213
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 14:59:55.235
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.248
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.269
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.275
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.298
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.303
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.317
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.322
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.352
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.357
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.393
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==0} -index 1], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.399
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.407
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.413
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.420
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.426
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.439
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.445
+!MESSAGE XSCT Command: [version -server], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.451
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.458
+!MESSAGE XSCT Command: [version], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.464
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.470
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.483
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.488
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.516
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.521
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.535
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.540
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.568
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.574
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.588
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.594
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.621
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.627
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.640
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.646
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.675
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.681
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.694
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.700
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.728
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.733
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.746
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279A42845A]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.752
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.780
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279A42845A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.786
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.814
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279A42845A" && level == 0}], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.820
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.826
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.832
+!MESSAGE XSCT Command: [source D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.839
+!MESSAGE XSCT command with result: [source D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.845
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.879
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:55.884
+!MESSAGE XSCT Command: [loadhw -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.593
+!MESSAGE XSCT command with result: [loadhw -hw D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_1]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.599
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.606
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.612
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.648
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.655
+!MESSAGE XSCT Command: [stop], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.687
+!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:57.697
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.155
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.161
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.176
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.182
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.218
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.224
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.282
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.288
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.327
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.333
+!MESSAGE XSCT Command: [dow D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.515
+!MESSAGE XSCT command with result: [dow D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/tempProj/Debug/tempProj.elf], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.521
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.528
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.554
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.595
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42845A"} -index 0], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.601
+!MESSAGE XSCT Command: [con], Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 14:59:58.639
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-11
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-02-24 15:04:10.912
 !MESSAGE Executed Webtalk command
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:42:49.695
-!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-169
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 15:04:10.924
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-265
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 13:42:49.699
-!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-169
+!ENTRY com.xilinx.sdk.utils 0 0 2020-02-24 15:04:10.935
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-265

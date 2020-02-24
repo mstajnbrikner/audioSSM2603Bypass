@@ -228,12 +228,6 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>RECDAT</spirit:name>
-          <spirit:wire>
-            <spirit:direction>in</spirit:direction>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
           <spirit:name>MUTE</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
@@ -244,7 +238,19 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
+          <spirit:name>RECDAT</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
           <spirit:name>PBDAT</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>RECLRCLK</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
           </spirit:wire>
@@ -257,12 +263,6 @@
               <spirit:left>0</spirit:left>
               <spirit:right>0</spirit:right>
             </spirit:vector>
-          </spirit:wire>
-        </spirit:port>
-        <spirit:port>
-          <spirit:name>RECLRCLK</spirit:name>
-          <spirit:wire>
-            <spirit:direction>out</spirit:direction>
           </spirit:wire>
         </spirit:port>
       </spirit:ports>
@@ -430,8 +430,8 @@
       <spirit:adHocConnection>
         <spirit:name>ssmClocking_0_outLRCLK</spirit:name>
         <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="outLRCLK"/>
-        <spirit:internalPortReference spirit:componentRef="util_vector_logic_1" spirit:portRef="Op1"/>
         <spirit:externalPortReference spirit:portRef="RECLRCLK"/>
+        <spirit:internalPortReference spirit:componentRef="util_vector_logic_1" spirit:portRef="Op1"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>util_vector_logic_1_Res</spirit:name>
