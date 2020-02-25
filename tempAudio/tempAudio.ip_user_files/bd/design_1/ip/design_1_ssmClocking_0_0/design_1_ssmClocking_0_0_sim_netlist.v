@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-// Date        : Fri Feb 21 11:06:41 2020
+// Date        : Tue Feb 25 10:06:28 2020
 // Host        : rtrkos034 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0_sim_netlist.v
+//               D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0_sim_netlist.v
 // Design      : design_1_ssmClocking_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -18,46 +18,53 @@ module design_1_ssmClocking_0_0
    (inRST,
     inCLK,
     outBCLK,
-    outLRCLK,
+    outRECLRCLK,
+    outPBLRCLK,
     outMCLK);
   input inRST;
   input inCLK;
   output outBCLK;
-  output outLRCLK;
+  output outRECLRCLK;
+  output outPBLRCLK;
   output outMCLK;
 
   wire inCLK;
   wire inRST;
   wire outBCLK;
-  wire outLRCLK;
   wire outMCLK;
+  wire outPBLRCLK;
+  wire outRECLRCLK;
 
   design_1_ssmClocking_0_0_ssmClocking U0
        (.inCLK(inCLK),
         .inRST(inRST),
         .outBCLK(outBCLK),
-        .outLRCLK(outLRCLK),
-        .outMCLK(outMCLK));
+        .outMCLK(outMCLK),
+        .outPBLRCLK(outPBLRCLK),
+        .outRECLRCLK(outRECLRCLK));
 endmodule
 
 (* ORIG_REF_NAME = "ssmClocking" *) 
 module design_1_ssmClocking_0_0_ssmClocking
    (outMCLK,
     outBCLK,
-    outLRCLK,
+    outPBLRCLK,
+    outRECLRCLK,
     inCLK,
     inRST);
   output outMCLK;
   output outBCLK;
-  output outLRCLK;
+  output outPBLRCLK;
+  output outRECLRCLK;
   input inCLK;
   input inRST;
 
   wire inCLK;
   wire inRST;
   wire outBCLK;
-  wire outLRCLK;
   wire outMCLK;
+  wire outPBLRCLK;
+  wire outRECLRCLK;
   wire \sBCLKcount[0]_i_1_n_0 ;
   wire \sBCLKcount[1]_i_1_n_0 ;
   wire \sBCLKcount[2]_i_1_n_0 ;
@@ -69,11 +76,16 @@ module design_1_ssmClocking_0_0_ssmClocking
   wire \sLRcount[7]_i_2_n_0 ;
   wire [7:0]sLRcount_reg__0;
   wire soutBCLK_i_1_n_0;
-  wire soutLRCLK_i_1_n_0;
-  wire soutLRCLK_i_2_n_0;
   wire soutMCLK_i_1_n_0;
+  wire soutRECLRCLK_i_1_n_0;
+  wire soutRECLRCLK_i_2_n_0;
 
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT1 #(
+    .INIT(2'h1)) 
+    outPBLRCLK_INST_0
+       (.I0(outRECLRCLK),
+        .O(outPBLRCLK));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
     .INIT(8'h0B)) 
     \sBCLKcount[0]_i_1 
@@ -87,7 +99,7 @@ module design_1_ssmClocking_0_0_ssmClocking
        (.I0(\sBCLKcount_reg_n_0_[1] ),
         .I1(\sBCLKcount_reg_n_0_[0] ),
         .O(\sBCLKcount[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
     .INIT(8'h68)) 
     \sBCLKcount[2]_i_1 
@@ -122,11 +134,11 @@ module design_1_ssmClocking_0_0_ssmClocking
   LUT3 #(
     .INIT(8'h38)) 
     \sLRcount[1]_i_1 
-       (.I0(soutLRCLK_i_2_n_0),
+       (.I0(soutRECLRCLK_i_2_n_0),
         .I1(sLRcount_reg__0[0]),
         .I2(sLRcount_reg__0[1]),
         .O(sLRcount[1]));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \sLRcount[2]_i_1 
@@ -193,7 +205,7 @@ module design_1_ssmClocking_0_0_ssmClocking
         .I4(sLRcount_reg__0[5]),
         .I5(sLRcount_reg__0[7]),
         .O(sLRcount[7]));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT3 #(
     .INIT(8'h7F)) 
     \sLRcount[7]_i_2 
@@ -279,33 +291,6 @@ module design_1_ssmClocking_0_0_ssmClocking
         .D(soutBCLK_i_1_n_0),
         .PRE(inRST),
         .Q(outBCLK));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT4 #(
-    .INIT(16'hFB04)) 
-    soutLRCLK_i_1
-       (.I0(soutLRCLK_i_2_n_0),
-        .I1(sLRcount_reg__0[0]),
-        .I2(sLRcount_reg__0[1]),
-        .I3(outLRCLK),
-        .O(soutLRCLK_i_1_n_0));
-  LUT6 #(
-    .INIT(64'hFFFEFFFFFFFFFFFF)) 
-    soutLRCLK_i_2
-       (.I0(sLRcount_reg__0[6]),
-        .I1(sLRcount_reg__0[7]),
-        .I2(sLRcount_reg__0[2]),
-        .I3(sLRcount_reg__0[5]),
-        .I4(sLRcount_reg__0[4]),
-        .I5(sLRcount_reg__0[3]),
-        .O(soutLRCLK_i_2_n_0));
-  FDCE #(
-    .IS_C_INVERTED(1'b1)) 
-    soutLRCLK_reg
-       (.C(outBCLK),
-        .CE(1'b1),
-        .CLR(inRST),
-        .D(soutLRCLK_i_1_n_0),
-        .Q(outLRCLK));
   LUT1 #(
     .INIT(2'h1)) 
     soutMCLK_i_1
@@ -317,6 +302,33 @@ module design_1_ssmClocking_0_0_ssmClocking
         .CLR(inRST),
         .D(soutMCLK_i_1_n_0),
         .Q(outMCLK));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT4 #(
+    .INIT(16'hFB04)) 
+    soutRECLRCLK_i_1
+       (.I0(soutRECLRCLK_i_2_n_0),
+        .I1(sLRcount_reg__0[0]),
+        .I2(sLRcount_reg__0[1]),
+        .I3(outRECLRCLK),
+        .O(soutRECLRCLK_i_1_n_0));
+  LUT6 #(
+    .INIT(64'hFFFEFFFFFFFFFFFF)) 
+    soutRECLRCLK_i_2
+       (.I0(sLRcount_reg__0[6]),
+        .I1(sLRcount_reg__0[7]),
+        .I2(sLRcount_reg__0[2]),
+        .I3(sLRcount_reg__0[5]),
+        .I4(sLRcount_reg__0[4]),
+        .I5(sLRcount_reg__0[3]),
+        .O(soutRECLRCLK_i_2_n_0));
+  FDCE #(
+    .IS_C_INVERTED(1'b1)) 
+    soutRECLRCLK_reg
+       (.C(outBCLK),
+        .CE(1'b1),
+        .CLR(inRST),
+        .D(soutRECLRCLK_i_1_n_0),
+        .Q(outRECLRCLK));
 endmodule
 `ifndef GLBL
 `define GLBL

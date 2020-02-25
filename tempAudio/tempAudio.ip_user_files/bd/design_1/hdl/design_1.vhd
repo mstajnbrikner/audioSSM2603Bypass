@@ -1,8 +1,8 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
---Date        : Mon Feb 24 14:42:54 2020
---Host        : DESKTOP-EHUDLFT running 64-bit major release  (build 9200)
+--Date        : Tue Feb 25 10:07:26 2020
+--Host        : rtrkos034 running 64-bit major release  (build 9200)
 --Command     : generate_target design_1.bd
 --Design      : design_1
 --Purpose     : IP block netlist
@@ -50,7 +50,7 @@ entity design_1 is
     clk : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1 : entity is "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=7,numReposBlks=7,numNonXlnxBlks=1,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=1,da_board_cnt=3,da_ps7_cnt=2,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of design_1 : entity is "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=6,numReposBlks=6,numNonXlnxBlks=1,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=1,da_board_cnt=3,da_ps7_cnt=2,synth_mode=OOC_per_IP}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of design_1 : entity is "design_1.hwdef";
 end design_1;
@@ -101,15 +101,6 @@ architecture STRUCTURE of design_1 is
     dout : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component design_1_xlconstant_0_0;
-  component design_1_ssmClocking_0_0 is
-  port (
-    inRST : in STD_LOGIC;
-    inCLK : in STD_LOGIC;
-    outBCLK : out STD_LOGIC;
-    outLRCLK : out STD_LOGIC;
-    outMCLK : out STD_LOGIC
-  );
-  end component design_1_ssmClocking_0_0;
   component design_1_util_vector_logic_0_0 is
   port (
     Op1 : in STD_LOGIC_VECTOR ( 0 to 0 );
@@ -121,12 +112,16 @@ architecture STRUCTURE of design_1 is
     dout : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component design_1_xlconstant_1_0;
-  component design_1_util_vector_logic_1_0 is
+  component design_1_ssmClocking_0_0 is
   port (
-    Op1 : in STD_LOGIC_VECTOR ( 0 to 0 );
-    Res : out STD_LOGIC_VECTOR ( 0 to 0 )
+    inRST : in STD_LOGIC;
+    inCLK : in STD_LOGIC;
+    outBCLK : out STD_LOGIC;
+    outRECLRCLK : out STD_LOGIC;
+    outPBLRCLK : out STD_LOGIC;
+    outMCLK : out STD_LOGIC
   );
-  end component design_1_util_vector_logic_1_0;
+  end component design_1_ssmClocking_0_0;
   signal RECDAT_1 : STD_LOGIC;
   signal clk_1 : STD_LOGIC;
   signal clk_wiz_0_clk_out1 : STD_LOGIC;
@@ -159,10 +154,10 @@ architecture STRUCTURE of design_1 is
   signal processing_system7_0_IIC_0_SDA_O : STD_LOGIC;
   signal processing_system7_0_IIC_0_SDA_T : STD_LOGIC;
   signal ssmClocking_0_outBCLK : STD_LOGIC;
-  signal ssmClocking_0_outLRCLK : STD_LOGIC;
   signal ssmClocking_0_outMCLK : STD_LOGIC;
+  signal ssmClocking_0_outPBLRCLK : STD_LOGIC;
+  signal ssmClocking_0_outRECLRCLK : STD_LOGIC;
   signal util_vector_logic_0_Res : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal util_vector_logic_1_Res : STD_LOGIC_VECTOR ( 0 to 0 );
   signal xlconstant_0_dout : STD_LOGIC_VECTOR ( 0 to 0 );
   signal xlconstant_1_dout : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_processing_system7_0_FCLK_RESET0_N_UNCONNECTED : STD_LOGIC;
@@ -175,9 +170,9 @@ begin
   MCLK <= ssmClocking_0_outMCLK;
   MUTE(0) <= xlconstant_1_dout(0);
   PBDAT <= RECDAT_1;
-  PBLRCLK(0) <= util_vector_logic_1_Res(0);
+  PBLRCLK(0) <= ssmClocking_0_outPBLRCLK;
   RECDAT_1 <= RECDAT;
-  RECLRCLK <= ssmClocking_0_outLRCLK;
+  RECLRCLK <= ssmClocking_0_outRECLRCLK;
   clk_1 <= clk;
   processing_system7_0_IIC_0_SCL_I <= IIC_0_scl_i;
   processing_system7_0_IIC_0_SDA_I <= IIC_0_sda_i;
@@ -224,18 +219,14 @@ ssmClocking_0: component design_1_ssmClocking_0_0
       inCLK => clk_wiz_0_clk_out1,
       inRST => util_vector_logic_0_Res(0),
       outBCLK => ssmClocking_0_outBCLK,
-      outLRCLK => ssmClocking_0_outLRCLK,
-      outMCLK => ssmClocking_0_outMCLK
+      outMCLK => ssmClocking_0_outMCLK,
+      outPBLRCLK => ssmClocking_0_outPBLRCLK,
+      outRECLRCLK => ssmClocking_0_outRECLRCLK
     );
 util_vector_logic_0: component design_1_util_vector_logic_0_0
      port map (
       Op1(0) => clk_wiz_0_locked,
       Res(0) => util_vector_logic_0_Res(0)
-    );
-util_vector_logic_1: component design_1_util_vector_logic_1_0
-     port map (
-      Op1(0) => ssmClocking_0_outLRCLK,
-      Res(0) => util_vector_logic_1_Res(0)
     );
 xlconstant_0: component design_1_xlconstant_0_0
      port map (

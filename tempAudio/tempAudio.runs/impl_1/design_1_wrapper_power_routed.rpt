@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Mon Feb 24 14:45:02 2020
-| Host             : DESKTOP-EHUDLFT running 64-bit major release  (build 9200)
+| Date             : Tue Feb 25 10:09:05 2020
+| Host             : rtrkos034 running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
 | Device           : xc7z010clg400-1
@@ -159,7 +159,6 @@ Table of Contents
 |     ssmClocking_0        |    <0.001 |
 |       U0                 |    <0.001 |
 |     util_vector_logic_0  |     0.000 |
-|     util_vector_logic_1  |    <0.001 |
 |     xlconstant_0         |     0.000 |
 |     xlconstant_1         |     0.000 |
 |   iic_0_scl_iobuf        |    <0.001 |

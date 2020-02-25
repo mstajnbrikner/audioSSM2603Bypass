@@ -2,11 +2,11 @@
 # Webtalk v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # 
-# Start of session at: Mon Feb 24 15:04:12 2020
-# Process ID: 1312
-# Current directory: D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/webtalk
+# Start of session at: Tue Feb 25 10:21:04 2020
+# Process ID: 5104
+# Current directory: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/webtalk/webtalk.log
-# Journal file: D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/webtalk\webtalk.jou
+# Log file: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/webtalk/webtalk.log
+# Journal file: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Feb 24 14:42:54 2020" VIVADOVERSION="2017.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Feb 25 10:07:26 2020" VIVADOVERSION="2017.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:1.0" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -61,14 +61,14 @@
         <CONNECTION INSTANCE="External_Ports" PORT="RECDAT"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="RECLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outLRCLK">
+    <PORT DIR="O" NAME="RECLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outRECLRCLK">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="ssmClocking_0" PORT="outLRCLK"/>
+        <CONNECTION INSTANCE="ssmClocking_0" PORT="outRECLRCLK"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="0" NAME="PBLRCLK" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
+    <PORT DIR="O" LEFT="0" NAME="PBLRCLK" RIGHT="0" SIGIS="undef" SIGNAME="ssmClocking_0_outPBLRCLK">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="util_vector_logic_1" PORT="Res"/>
+        <CONNECTION INSTANCE="ssmClocking_0" PORT="outPBLRCLK"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -1750,7 +1750,7 @@
       <MEMORYMAP/>
       <PERIPHERALS/>
     </MODULE>
-    <MODULE FULLNAME="/ssmClocking_0" HWVERSION="1.0" INSTANCE="ssmClocking_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ssmClocking" VLNV="domain.local:user:ssmClocking:1.0">
+    <MODULE FULLNAME="/ssmClocking_0" HWVERSION="1.1" INSTANCE="ssmClocking_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ssmClocking" VLNV="domain.local:user:ssmClocking:1.1">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_ssmClocking_0_0"/>
@@ -1772,10 +1772,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="BCLK"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="outLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outLRCLK">
+        <PORT DIR="O" NAME="outRECLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outRECLRCLK">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="RECLRCLK"/>
-            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="outPBLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outPBLRCLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PBLRCLK"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="outMCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outMCLK">
@@ -1804,29 +1808,6 @@
         <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ssmClocking_0" PORT="inRST"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE FULLNAME="/util_vector_logic_1" HWVERSION="2.0" INSTANCE="util_vector_logic_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
-        <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_1_0"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="ssmClocking_0_outLRCLK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ssmClocking_0" PORT="outLRCLK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="PBLRCLK"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

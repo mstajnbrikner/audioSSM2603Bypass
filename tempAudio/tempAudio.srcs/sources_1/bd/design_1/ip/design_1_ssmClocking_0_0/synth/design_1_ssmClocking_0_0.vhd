@@ -46,8 +46,8 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: domain.local:user:ssmClocking:1.0
--- IP Revision: 2
+-- IP VLNV: domain.local:user:ssmClocking:1.1
+-- IP Revision: 1
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -58,7 +58,8 @@ ENTITY design_1_ssmClocking_0_0 IS
     inRST : IN STD_LOGIC;
     inCLK : IN STD_LOGIC;
     outBCLK : OUT STD_LOGIC;
-    outLRCLK : OUT STD_LOGIC;
+    outRECLRCLK : OUT STD_LOGIC;
+    outPBLRCLK : OUT STD_LOGIC;
     outMCLK : OUT STD_LOGIC
   );
 END design_1_ssmClocking_0_0;
@@ -71,7 +72,8 @@ ARCHITECTURE design_1_ssmClocking_0_0_arch OF design_1_ssmClocking_0_0 IS
       inRST : IN STD_LOGIC;
       inCLK : IN STD_LOGIC;
       outBCLK : OUT STD_LOGIC;
-      outLRCLK : OUT STD_LOGIC;
+      outRECLRCLK : OUT STD_LOGIC;
+      outPBLRCLK : OUT STD_LOGIC;
       outMCLK : OUT STD_LOGIC
     );
   END COMPONENT ssmClocking;
@@ -85,7 +87,8 @@ BEGIN
       inRST => inRST,
       inCLK => inCLK,
       outBCLK => outBCLK,
-      outLRCLK => outLRCLK,
+      outRECLRCLK => outRECLRCLK,
+      outPBLRCLK => outPBLRCLK,
       outMCLK => outMCLK
     );
 END design_1_ssmClocking_0_0_arch;

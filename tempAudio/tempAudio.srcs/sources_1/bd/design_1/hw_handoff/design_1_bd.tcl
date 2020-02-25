@@ -336,7 +336,7 @@ CONFIG.PCW_USE_M_AXI_GP0 {0} \
  ] $processing_system7_0
 
   # Create instance: ssmClocking_0, and set properties
-  set ssmClocking_0 [ create_bd_cell -type ip -vlnv domain.local:user:ssmClocking:1.0 ssmClocking_0 ]
+  set ssmClocking_0 [ create_bd_cell -type ip -vlnv domain.local:user:ssmClocking:1.1 ssmClocking_0 ]
 
   # Create instance: util_vector_logic_0, and set properties
   set util_vector_logic_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0 ]
@@ -345,14 +345,6 @@ CONFIG.C_OPERATION {not} \
 CONFIG.C_SIZE {1} \
 CONFIG.LOGO_FILE {data/sym_notgate.png} \
  ] $util_vector_logic_0
-
-  # Create instance: util_vector_logic_1, and set properties
-  set util_vector_logic_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_1 ]
-  set_property -dict [ list \
-CONFIG.C_OPERATION {not} \
-CONFIG.C_SIZE {1} \
-CONFIG.LOGO_FILE {data/sym_notgate.png} \
- ] $util_vector_logic_1
 
   # Create instance: xlconstant_0, and set properties
   set xlconstant_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0 ]
@@ -374,10 +366,10 @@ CONFIG.CONST_VAL {0} \
   connect_bd_net -net clk_wiz_0_clk_out1 [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins ssmClocking_0/inCLK]
   connect_bd_net -net clk_wiz_0_locked [get_bd_pins clk_wiz_0/locked] [get_bd_pins util_vector_logic_0/Op1]
   connect_bd_net -net ssmClocking_0_outBCLK [get_bd_ports BCLK] [get_bd_pins ssmClocking_0/outBCLK]
-  connect_bd_net -net ssmClocking_0_outLRCLK [get_bd_ports RECLRCLK] [get_bd_pins ssmClocking_0/outLRCLK] [get_bd_pins util_vector_logic_1/Op1]
   connect_bd_net -net ssmClocking_0_outMCLK [get_bd_ports MCLK] [get_bd_pins ssmClocking_0/outMCLK]
+  connect_bd_net -net ssmClocking_0_outPBLRCLK [get_bd_ports PBLRCLK] [get_bd_pins ssmClocking_0/outPBLRCLK]
+  connect_bd_net -net ssmClocking_0_outRECLRCLK [get_bd_ports RECLRCLK] [get_bd_pins ssmClocking_0/outRECLRCLK]
   connect_bd_net -net util_vector_logic_0_Res [get_bd_pins ssmClocking_0/inRST] [get_bd_pins util_vector_logic_0/Res]
-  connect_bd_net -net util_vector_logic_1_Res [get_bd_ports PBLRCLK] [get_bd_pins util_vector_logic_1/Res]
   connect_bd_net -net xlconstant_0_dout [get_bd_pins clk_wiz_0/reset] [get_bd_pins xlconstant_0/dout]
   connect_bd_net -net xlconstant_1_dout [get_bd_ports MUTE] [get_bd_pins xlconstant_1/dout]
 

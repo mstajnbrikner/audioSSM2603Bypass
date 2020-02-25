@@ -2,60 +2,40 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Mon Feb 24 14:41:41 2020
-# Process ID: 7860
-# Current directory: D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11772 D:\PROJEKTIrtrk\audioSSM2603Bypass\tempAudio\tempAudio.xpr
-# Log file: D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/vivado.log
-# Journal file: D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio\vivado.jou
+# Start of session at: Mon Feb 24 15:08:44 2020
+# Process ID: 8080
+# Current directory: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7236 D:\Stajnbrikner_studentskiRad19-20\DEMO_PROJECTS\tempAudio\tempAudio\tempAudio.xpr
+# Log file: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/vivado.log
+# Journal file: D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.xpr
+open_project D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.xpr
 update_compile_order -fileset sources_1
-open_bd_design {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd}
 validate_bd_design -force
-generate_target all [get_files  D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd]
-export_ip_user_files -of_objects [get_files D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd]
-export_simulation -of_objects [get_files D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.ip_user_files/sim_scripts -ip_user_files_dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.ip_user_files -ipstatic_source_dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.cache/compile_simlib/modelsim} {questa=D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.cache/compile_simlib/questa} {riviera=D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.cache/compile_simlib/riviera} {activehdl=D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-make_wrapper -files [get_files D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd] -top
+generate_target all [get_files  D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.ip_user_files/sim_scripts -ip_user_files_dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.ip_user_files -ipstatic_source_dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/compile_simlib/modelsim} {questa=D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/compile_simlib/questa} {riviera=D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/compile_simlib/riviera} {activehdl=D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream -jobs 8
 wait_on_run impl_1
 open_run impl_1
-file mkdir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk
-file copy -force D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.sysdef D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper.hdf
+file mkdir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk
+file copy -force D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.sysdef D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf
 
-launch_sdk -workspace D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk -hwspec D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.sdk/design_1_wrapper.hdf
-open_bd_design {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd}
+launch_sdk -workspace D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk -hwspec D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.sdk/design_1_wrapper.hdf
 open_hw
 connect_hw_server
 open_hw_target
-set_property PROGRAM.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
-set_property PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
 current_hw_device [get_hw_devices xc7z010_1]
 refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-set_property PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
-program_hw_devices [get_hw_devices xc7z010_1]
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-set_property PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
-program_hw_devices [get_hw_devices xc7z010_1]
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-disconnect_hw_server localhost:3121
-connect_hw_server
-open_hw_target
-set_property PROGRAM.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
-set_property PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-current_hw_device [get_hw_devices xc7z010_1]
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-set_property PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z010_1]
 program_hw_devices [get_hw_devices xc7z010_1]
 refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]

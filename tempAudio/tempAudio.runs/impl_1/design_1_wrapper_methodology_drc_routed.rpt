@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Feb 24 14:45:01 2020
-| Host         : DESKTOP-EHUDLFT running 64-bit major release  (build 9200)
+| Date         : Tue Feb 25 10:09:05 2020
+| Host         : rtrkos034 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -rpx design_1_wrapper_methodology_drc_routed.rpx
 | Design       : design_1_wrapper
 | Device       : xc7z010clg400-1
@@ -86,7 +86,7 @@ Related violations: <none>
 
 TIMING-17#9 Warning
 Non-clocked sequential cell  
-The clock pin design_1_i/ssmClocking_0/U0/soutLRCLK_reg/C is not reached by a timing clock
+The clock pin design_1_i/ssmClocking_0/U0/soutRECLRCLK_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-18#1 Warning

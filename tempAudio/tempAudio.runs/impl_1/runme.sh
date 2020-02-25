@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/impl_1'
+HD_PWD='D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

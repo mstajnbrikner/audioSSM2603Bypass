@@ -348,13 +348,6 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>ssmClocking_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="ssmClocking" spirit:vendor="domain.local" spirit:version="1.0"/>
-        <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_ssmClocking_0_0</spirit:configurableElementValue>
-        </spirit:configurableElementValues>
-      </spirit:componentInstance>
-      <spirit:componentInstance>
         <spirit:instanceName>util_vector_logic_0</spirit:instanceName>
         <spirit:componentRef spirit:library="ip" spirit:name="util_vector_logic" spirit:vendor="xilinx.com" spirit:version="2.0"/>
         <spirit:configurableElementValues>
@@ -371,12 +364,10 @@
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
-        <spirit:instanceName>util_vector_logic_1</spirit:instanceName>
-        <spirit:componentRef spirit:library="ip" spirit:name="util_vector_logic" spirit:vendor="xilinx.com" spirit:version="2.0"/>
+        <spirit:instanceName>ssmClocking_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="ssmClocking" spirit:vendor="domain.local" spirit:version="1.1"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_util_vector_logic_1_0</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_SIZE">1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_OPERATION">not</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_ssmClocking_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
     </spirit:componentInstances>
@@ -428,14 +419,13 @@
         <spirit:externalPortReference spirit:portRef="PBDAT"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>ssmClocking_0_outLRCLK</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="outLRCLK"/>
+        <spirit:name>ssmClocking_0_outRECLRCLK</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="outRECLRCLK"/>
         <spirit:externalPortReference spirit:portRef="RECLRCLK"/>
-        <spirit:internalPortReference spirit:componentRef="util_vector_logic_1" spirit:portRef="Op1"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
-        <spirit:name>util_vector_logic_1_Res</spirit:name>
-        <spirit:internalPortReference spirit:componentRef="util_vector_logic_1" spirit:portRef="Res"/>
+        <spirit:name>ssmClocking_0_outPBLRCLK</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="outPBLRCLK"/>
         <spirit:externalPortReference spirit:portRef="PBLRCLK"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>

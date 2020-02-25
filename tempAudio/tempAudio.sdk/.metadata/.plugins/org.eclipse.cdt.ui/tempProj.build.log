@@ -1,8 +1,8 @@
-14:59:52 **** Incremental Build of configuration Debug for project tempProj ****
+10:18:55 **** Incremental Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Ništa za napraviti za `main-build'.
+make: Nothing to be done for `main-build'.
 
-14:59:53 Build Finished (took 280ms)
+10:18:56 Build Finished (took 122ms)
 

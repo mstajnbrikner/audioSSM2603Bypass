@@ -51,19 +51,19 @@ set rc [catch {
   set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.cache/wt [current_project]
-  set_property parent.project_path D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.xpr [current_project]
-  set_property ip_repo_paths D:/PROJEKTIrtrk/audioSSM2603Bypass/clockManagerIP [current_project]
-  set_property ip_output_repo D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/wt [current_project]
+  set_property parent.project_path D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.xpr [current_project]
+  set_property ip_repo_paths D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/clockManagerIP [current_project]
+  set_property ip_output_repo D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
-  add_files -quiet D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -suppress
   set_param project.isImplRun true
-  add_files D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd
-  set_property is_locked true [get_files D:/PROJEKTIrtrk/audioSSM2603Bypass/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd]
+  add_files D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd
+  set_property is_locked true [get_files D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/design_1.bd]
   set_param project.isImplRun false
-  read_xdc D:/PROJEKTIrtrk/audioSSM2603Bypass/ZYBO_Master.xdc
+  read_xdc D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/ZYBO_Master.xdc
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xc7z010clg400-1
   set_param project.isImplRun false

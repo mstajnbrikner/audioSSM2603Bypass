@@ -8,7 +8,8 @@ port
 	inRST		: in std_logic;
 	inCLK 		: in std_logic;
 	outBCLK		: out std_logic;
-	outLRCLK	: out std_logic;
+	outRECLRCLK	: out std_logic;
+	outPBLRCLK	: out std_logic;
 	outMCLK		: out std_logic
 );
 end ssmClocking;
@@ -16,7 +17,7 @@ end ssmClocking;
 architecture arch_ssmClocking of ssmClocking is
 
 signal soutBCLK		: std_logic;
-signal soutLRCLK	: std_logic;
+signal soutRECLRCLK	: std_logic;
 signal soutMCLK		: std_logic;
 
 constant LRCLK_divider : natural := 25;
@@ -54,12 +55,12 @@ begin
 	LRCLK_proc : process(soutBCLK, inRST)
 	begin
 		if(inRST = '1') then
-			soutLRCLK 	<= '0';
+			soutRECLRCLK 	<= '0';
 			sLRcount <= (others => '0');
 		elsif(soutBCLK'event and soutBCLK = '0') then
 			if(sLRcount = LRCLK_divider) then
 				sLRcount <= (others => '0');
-				soutLRCLK <= not soutLRCLK;
+				soutRECLRCLK <= not soutRECLRCLK;
 			else
 				sLRcount <= sLRcount + 1;
 			end if;
@@ -67,8 +68,9 @@ begin
 	end process;
 	
 outBCLK 	<= soutBCLK;
-outLRCLK	<= soutLRCLK;
+outRECLRCLK	<= soutRECLRCLK;
 outMCLK 	<= soutMCLK;
+outPBLRCLK	<= not soutRECLRCLK;
 
 end arch_ssmClocking;
 

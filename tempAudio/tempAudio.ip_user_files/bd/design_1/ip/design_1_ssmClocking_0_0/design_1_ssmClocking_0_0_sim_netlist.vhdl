@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
--- Date        : Fri Feb 21 11:06:41 2020
+-- Date        : Tue Feb 25 10:06:28 2020
 -- Host        : rtrkos034 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0_sim_netlist.vhdl
+--               D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0_sim_netlist.vhdl
 -- Design      : design_1_ssmClocking_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -18,7 +18,8 @@ entity design_1_ssmClocking_0_0_ssmClocking is
   port (
     outMCLK : out STD_LOGIC;
     outBCLK : out STD_LOGIC;
-    outLRCLK : out STD_LOGIC;
+    outPBLRCLK : out STD_LOGIC;
+    outRECLRCLK : out STD_LOGIC;
     inCLK : in STD_LOGIC;
     inRST : in STD_LOGIC
   );
@@ -28,8 +29,8 @@ end design_1_ssmClocking_0_0_ssmClocking;
 
 architecture STRUCTURE of design_1_ssmClocking_0_0_ssmClocking is
   signal \^outbclk\ : STD_LOGIC;
-  signal \^outlrclk\ : STD_LOGIC;
   signal \^outmclk\ : STD_LOGIC;
+  signal \^outreclrclk\ : STD_LOGIC;
   signal \sBCLKcount[0]_i_1_n_0\ : STD_LOGIC;
   signal \sBCLKcount[1]_i_1_n_0\ : STD_LOGIC;
   signal \sBCLKcount[2]_i_1_n_0\ : STD_LOGIC;
@@ -41,20 +42,28 @@ architecture STRUCTURE of design_1_ssmClocking_0_0_ssmClocking is
   signal \sLRcount[7]_i_2_n_0\ : STD_LOGIC;
   signal \sLRcount_reg__0\ : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal soutBCLK_i_1_n_0 : STD_LOGIC;
-  signal soutLRCLK_i_1_n_0 : STD_LOGIC;
-  signal soutLRCLK_i_2_n_0 : STD_LOGIC;
   signal soutMCLK_i_1_n_0 : STD_LOGIC;
+  signal soutRECLRCLK_i_1_n_0 : STD_LOGIC;
+  signal soutRECLRCLK_i_2_n_0 : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
-  attribute SOFT_HLUTNM of \sBCLKcount[0]_i_1\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \sBCLKcount[2]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \sBCLKcount[0]_i_1\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \sBCLKcount[2]_i_1\ : label is "soft_lutpair2";
   attribute SOFT_HLUTNM of \sLRcount[1]_i_1\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \sLRcount[2]_i_1\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \sLRcount[7]_i_2\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of soutLRCLK_i_1 : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \sLRcount[2]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \sLRcount[7]_i_2\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of soutRECLRCLK_i_1 : label is "soft_lutpair0";
 begin
   outBCLK <= \^outbclk\;
-  outLRCLK <= \^outlrclk\;
   outMCLK <= \^outmclk\;
+  outRECLRCLK <= \^outreclrclk\;
+outPBLRCLK_INST_0: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => \^outreclrclk\,
+      O => outPBLRCLK
+    );
 \sBCLKcount[0]_i_1\: unisim.vcomponents.LUT3
     generic map(
       INIT => X"0B"
@@ -121,7 +130,7 @@ begin
       INIT => X"38"
     )
         port map (
-      I0 => soutLRCLK_i_2_n_0,
+      I0 => soutRECLRCLK_i_2_n_0,
       I1 => \sLRcount_reg__0\(0),
       I2 => \sLRcount_reg__0\(1),
       O => sLRcount(1)
@@ -330,41 +339,6 @@ soutBCLK_reg: unisim.vcomponents.FDPE
       PRE => inRST,
       Q => \^outbclk\
     );
-soutLRCLK_i_1: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"FB04"
-    )
-        port map (
-      I0 => soutLRCLK_i_2_n_0,
-      I1 => \sLRcount_reg__0\(0),
-      I2 => \sLRcount_reg__0\(1),
-      I3 => \^outlrclk\,
-      O => soutLRCLK_i_1_n_0
-    );
-soutLRCLK_i_2: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"FFFEFFFFFFFFFFFF"
-    )
-        port map (
-      I0 => \sLRcount_reg__0\(6),
-      I1 => \sLRcount_reg__0\(7),
-      I2 => \sLRcount_reg__0\(2),
-      I3 => \sLRcount_reg__0\(5),
-      I4 => \sLRcount_reg__0\(4),
-      I5 => \sLRcount_reg__0\(3),
-      O => soutLRCLK_i_2_n_0
-    );
-soutLRCLK_reg: unisim.vcomponents.FDCE
-    generic map(
-      IS_C_INVERTED => '1'
-    )
-        port map (
-      C => \^outbclk\,
-      CE => '1',
-      CLR => inRST,
-      D => soutLRCLK_i_1_n_0,
-      Q => \^outlrclk\
-    );
 soutMCLK_i_1: unisim.vcomponents.LUT1
     generic map(
       INIT => X"1"
@@ -381,6 +355,41 @@ soutMCLK_reg: unisim.vcomponents.FDCE
       D => soutMCLK_i_1_n_0,
       Q => \^outmclk\
     );
+soutRECLRCLK_i_1: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"FB04"
+    )
+        port map (
+      I0 => soutRECLRCLK_i_2_n_0,
+      I1 => \sLRcount_reg__0\(0),
+      I2 => \sLRcount_reg__0\(1),
+      I3 => \^outreclrclk\,
+      O => soutRECLRCLK_i_1_n_0
+    );
+soutRECLRCLK_i_2: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"FFFEFFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \sLRcount_reg__0\(6),
+      I1 => \sLRcount_reg__0\(7),
+      I2 => \sLRcount_reg__0\(2),
+      I3 => \sLRcount_reg__0\(5),
+      I4 => \sLRcount_reg__0\(4),
+      I5 => \sLRcount_reg__0\(3),
+      O => soutRECLRCLK_i_2_n_0
+    );
+soutRECLRCLK_reg: unisim.vcomponents.FDCE
+    generic map(
+      IS_C_INVERTED => '1'
+    )
+        port map (
+      C => \^outbclk\,
+      CE => '1',
+      CLR => inRST,
+      D => soutRECLRCLK_i_1_n_0,
+      Q => \^outreclrclk\
+    );
 end STRUCTURE;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -391,7 +400,8 @@ entity design_1_ssmClocking_0_0 is
     inRST : in STD_LOGIC;
     inCLK : in STD_LOGIC;
     outBCLK : out STD_LOGIC;
-    outLRCLK : out STD_LOGIC;
+    outRECLRCLK : out STD_LOGIC;
+    outPBLRCLK : out STD_LOGIC;
     outMCLK : out STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
@@ -411,7 +421,8 @@ U0: entity work.design_1_ssmClocking_0_0_ssmClocking
       inCLK => inCLK,
       inRST => inRST,
       outBCLK => outBCLK,
-      outLRCLK => outLRCLK,
-      outMCLK => outMCLK
+      outMCLK => outMCLK,
+      outPBLRCLK => outPBLRCLK,
+      outRECLRCLK => outRECLRCLK
     );
 end STRUCTURE;
