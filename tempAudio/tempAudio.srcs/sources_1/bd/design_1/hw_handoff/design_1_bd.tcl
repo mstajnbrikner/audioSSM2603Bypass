@@ -194,6 +194,9 @@ CONFIG.PRIMITIVE {PLL} \
 CONFIG.USE_BOARD_FLOW {true} \
  ] $clk_wiz_0
 
+  # Create instance: i2sBypass_0, and set properties
+  set i2sBypass_0 [ create_bd_cell -type ip -vlnv domain.local:user:i2sBypass:1.0 i2sBypass_0 ]
+
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]
   set_property -dict [ list \
@@ -361,15 +364,16 @@ CONFIG.CONST_VAL {0} \
   connect_bd_intf_net -intf_net processing_system7_0_IIC_0 [get_bd_intf_ports IIC_0] [get_bd_intf_pins processing_system7_0/IIC_0]
 
   # Create port connections
-  connect_bd_net -net RECDAT_1 [get_bd_ports PBDAT] [get_bd_ports RECDAT]
+  connect_bd_net -net RECDAT_1 [get_bd_ports RECDAT] [get_bd_pins i2sBypass_0/inRECDAT]
   connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins clk_wiz_0/clk_in1]
   connect_bd_net -net clk_wiz_0_clk_out1 [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins ssmClocking_0/inCLK]
   connect_bd_net -net clk_wiz_0_locked [get_bd_pins clk_wiz_0/locked] [get_bd_pins util_vector_logic_0/Op1]
-  connect_bd_net -net ssmClocking_0_outBCLK [get_bd_ports BCLK] [get_bd_pins ssmClocking_0/outBCLK]
+  connect_bd_net -net i2sBypass_0_outPBDAT [get_bd_ports PBDAT] [get_bd_pins i2sBypass_0/outPBDAT]
+  connect_bd_net -net ssmClocking_0_outBCLK [get_bd_ports BCLK] [get_bd_pins i2sBypass_0/inBCLK] [get_bd_pins ssmClocking_0/outBCLK]
   connect_bd_net -net ssmClocking_0_outMCLK [get_bd_ports MCLK] [get_bd_pins ssmClocking_0/outMCLK]
   connect_bd_net -net ssmClocking_0_outPBLRCLK [get_bd_ports PBLRCLK] [get_bd_pins ssmClocking_0/outPBLRCLK]
   connect_bd_net -net ssmClocking_0_outRECLRCLK [get_bd_ports RECLRCLK] [get_bd_pins ssmClocking_0/outRECLRCLK]
-  connect_bd_net -net util_vector_logic_0_Res [get_bd_pins ssmClocking_0/inRST] [get_bd_pins util_vector_logic_0/Res]
+  connect_bd_net -net util_vector_logic_0_Res [get_bd_pins i2sBypass_0/inRST] [get_bd_pins ssmClocking_0/inRST] [get_bd_pins util_vector_logic_0/Res]
   connect_bd_net -net xlconstant_0_dout [get_bd_pins clk_wiz_0/reset] [get_bd_pins xlconstant_0/dout]
   connect_bd_net -net xlconstant_1_dout [get_bd_ports MUTE] [get_bd_pins xlconstant_1/dout]
 

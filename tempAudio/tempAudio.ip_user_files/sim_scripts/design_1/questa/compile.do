@@ -72,6 +72,10 @@ vlog -work xil_defaultlib -64 "+incdir+../../../../tempAudio.srcs/sources_1/bd/d
 "../../../bd/design_1/ip/design_1_util_vector_logic_0_0/sim/design_1_util_vector_logic_0_0.v" \
 "../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
 
+vcom -work xil_defaultlib -64 -93 \
+"../../../bd/design_1/ipshared/30fc/i2sBypass.vhd" \
+"../../../bd/design_1/ip/design_1_i2sBypass_0_0/sim/design_1_i2sBypass_0_0.vhd" \
+
 vlog -work xil_defaultlib \
 "glbl.v"
 

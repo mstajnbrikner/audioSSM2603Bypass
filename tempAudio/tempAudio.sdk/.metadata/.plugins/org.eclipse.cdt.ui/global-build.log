@@ -1,4 +1,4 @@
-10:17:44 **** Build of project tempProj_bsp ****
+12:04:23 **** Build of project tempProj_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
@@ -69,7 +69,7 @@ make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm
 make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Compiling xadcps"
 'Finished building libraries'
-10:17:54 **** Build of configuration Debug for project tempProj ****
+12:04:34 **** Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -94,12 +94,12 @@ arm-none-eabi-size tempProj.elf  |tee "tempProj.elf.size"
   19384	   1148	  22568	  43100	   a85c	tempProj.elf
 'Finished building: tempProj.elf.size'
 ' '
-10:17:56 **** Auto Build of configuration Debug for project tempProj ****
+12:04:36 **** Auto Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
-10:18:00 **** Auto Build of configuration Debug for project tempProj ****
+12:04:50 **** Auto Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -119,7 +119,7 @@ arm-none-eabi-size tempProj.elf  |tee "tempProj.elf.size"
   34300	   2204	  22712	  59216	   e750	tempProj.elf
 'Finished building: tempProj.elf.size'
 ' '
-10:18:55 **** Incremental Build of configuration Debug for project tempProj ****
+12:06:34 **** Incremental Build of configuration Debug for project tempProj ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '

@@ -370,6 +370,13 @@
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_ssmClocking_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>i2sBypass_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="i2sBypass" spirit:vendor="domain.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_i2sBypass_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
     </spirit:componentInstances>
     <spirit:interconnections/>
     <spirit:adHocConnections>
@@ -392,6 +399,7 @@
         <spirit:name>util_vector_logic_0_Res</spirit:name>
         <spirit:internalPortReference spirit:componentRef="util_vector_logic_0" spirit:portRef="Res"/>
         <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="inRST"/>
+        <spirit:internalPortReference spirit:componentRef="i2sBypass_0" spirit:portRef="inRST"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>clk_wiz_0_clk_out1</spirit:name>
@@ -407,16 +415,12 @@
         <spirit:name>ssmClocking_0_outBCLK</spirit:name>
         <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="outBCLK"/>
         <spirit:externalPortReference spirit:portRef="BCLK"/>
+        <spirit:internalPortReference spirit:componentRef="i2sBypass_0" spirit:portRef="inBCLK"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>xlconstant_1_dout</spirit:name>
         <spirit:internalPortReference spirit:componentRef="xlconstant_1" spirit:portRef="dout"/>
         <spirit:externalPortReference spirit:portRef="MUTE"/>
-      </spirit:adHocConnection>
-      <spirit:adHocConnection>
-        <spirit:name>RECDAT_1</spirit:name>
-        <spirit:externalPortReference spirit:portRef="RECDAT"/>
-        <spirit:externalPortReference spirit:portRef="PBDAT"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>ssmClocking_0_outRECLRCLK</spirit:name>
@@ -427,6 +431,16 @@
         <spirit:name>ssmClocking_0_outPBLRCLK</spirit:name>
         <spirit:internalPortReference spirit:componentRef="ssmClocking_0" spirit:portRef="outPBLRCLK"/>
         <spirit:externalPortReference spirit:portRef="PBLRCLK"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>i2sBypass_0_outPBDAT</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="i2sBypass_0" spirit:portRef="outPBDAT"/>
+        <spirit:externalPortReference spirit:portRef="PBDAT"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>RECDAT_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="RECDAT"/>
+        <spirit:internalPortReference spirit:componentRef="i2sBypass_0" spirit:portRef="inRECDAT"/>
       </spirit:adHocConnection>
     </spirit:adHocConnections>
     <spirit:hierConnections>

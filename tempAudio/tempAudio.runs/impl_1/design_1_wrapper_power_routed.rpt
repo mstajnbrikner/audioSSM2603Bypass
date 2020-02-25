@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Tue Feb 25 10:09:05 2020
+| Date             : Tue Feb 25 12:02:57 2020
 | Host             : rtrkos034 running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -29,18 +29,18 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+--------+
-| Total On-Chip Power (W)  | 1.745  |
-| Dynamic (W)              | 1.617  |
-| Device Static (W)        | 0.128  |
-| Effective TJA (C/W)      | 11.5   |
-| Max Ambient (C)          | 64.9   |
-| Junction Temperature (C) | 45.1   |
-| Confidence Level         | Medium |
-| Setting File             | ---    |
-| Simulation Activity File | ---    |
-| Design Nets Matched      | NA     |
-+--------------------------+--------+
++--------------------------+-------+
+| Total On-Chip Power (W)  | 1.745 |
+| Dynamic (W)              | 1.617 |
+| Device Static (W)        | 0.128 |
+| Effective TJA (C/W)      | 11.5  |
+| Max Ambient (C)          | 64.9  |
+| Junction Temperature (C) | 45.1  |
+| Confidence Level         | Low   |
+| Setting File             | ---   |
+| Simulation Activity File | ---   |
+| Design Nets Matched      | NA    |
++--------------------------+-------+
 
 
 1.1 On-Chip Components
@@ -50,11 +50,12 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |      173 |       --- |             --- |
+| Slice Logic    |    <0.001 |      203 |       --- |             --- |
 |   LUT as Logic |    <0.001 |       18 |     17600 |            0.10 |
-|   Register     |    <0.001 |       14 |     35200 |            0.04 |
-|   Others       |     0.000 |      138 |       --- |             --- |
-| Signals        |    <0.001 |       30 |       --- |             --- |
+|   Register     |    <0.001 |       41 |     35200 |            0.12 |
+|   BUFG         |    <0.001 |        1 |        32 |            3.13 |
+|   Others       |     0.000 |      140 |       --- |             --- |
+| Signals        |    <0.001 |       58 |       --- |             --- |
 | PLL            |     0.106 |        1 |         2 |           50.00 |
 | I/O            |     0.004 |       10 |       100 |           10.00 |
 | PS7            |     1.506 |        1 |       --- |             --- |
@@ -99,12 +100,12 @@ Table of Contents
 | User Input Data             | Confidence | Details                                               | Action                                                                                                             |
 +-----------------------------+------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | Design implementation state | High       | Design is routed                                      |                                                                                                                    |
-| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
 | I/O nodes activity          | Medium     | More than 5% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
 | Internal nodes activity     | Medium     | User specified less than 25% of internal nodes        | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
 | Device models               | High       | Device models are Production                          |                                                                                                                    |
 |                             |            |                                                       |                                                                                                                    |
-| Overall confidence level    | Medium     |                                                       |                                                                                                                    |
+| Overall confidence level    | Low        |                                                       |                                                                                                                    |
 +-----------------------------+------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 
 
@@ -154,6 +155,8 @@ Table of Contents
 |   design_1_i             |     1.613 |
 |     clk_wiz_0            |     0.106 |
 |       inst               |     0.106 |
+|     i2sBypass_0          |    <0.001 |
+|       U0                 |    <0.001 |
 |     processing_system7_0 |     1.507 |
 |       inst               |     1.507 |
 |     ssmClocking_0        |    <0.001 |

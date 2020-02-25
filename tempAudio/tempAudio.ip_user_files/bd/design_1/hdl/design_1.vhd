@@ -1,7 +1,7 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
---Date        : Tue Feb 25 10:07:26 2020
+--Date        : Tue Feb 25 12:00:28 2020
 --Host        : rtrkos034 running 64-bit major release  (build 9200)
 --Command     : generate_target design_1.bd
 --Design      : design_1
@@ -50,7 +50,7 @@ entity design_1 is
     clk : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1 : entity is "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=6,numReposBlks=6,numNonXlnxBlks=1,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=1,da_board_cnt=3,da_ps7_cnt=2,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of design_1 : entity is "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=7,numReposBlks=7,numNonXlnxBlks=2,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=1,da_board_cnt=3,da_ps7_cnt=2,synth_mode=OOC_per_IP}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of design_1 : entity is "design_1.hwdef";
 end design_1;
@@ -122,10 +122,19 @@ architecture STRUCTURE of design_1 is
     outMCLK : out STD_LOGIC
   );
   end component design_1_ssmClocking_0_0;
+  component design_1_i2sBypass_0_0 is
+  port (
+    inBCLK : in STD_LOGIC;
+    inRST : in STD_LOGIC;
+    inRECDAT : in STD_LOGIC;
+    outPBDAT : out STD_LOGIC
+  );
+  end component design_1_i2sBypass_0_0;
   signal RECDAT_1 : STD_LOGIC;
   signal clk_1 : STD_LOGIC;
   signal clk_wiz_0_clk_out1 : STD_LOGIC;
   signal clk_wiz_0_locked : STD_LOGIC;
+  signal i2sBypass_0_outPBDAT : STD_LOGIC;
   signal processing_system7_0_DDR_ADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
   signal processing_system7_0_DDR_BA : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal processing_system7_0_DDR_CAS_N : STD_LOGIC;
@@ -169,7 +178,7 @@ begin
   IIC_0_sda_t <= processing_system7_0_IIC_0_SDA_T;
   MCLK <= ssmClocking_0_outMCLK;
   MUTE(0) <= xlconstant_1_dout(0);
-  PBDAT <= RECDAT_1;
+  PBDAT <= i2sBypass_0_outPBDAT;
   PBLRCLK(0) <= ssmClocking_0_outPBLRCLK;
   RECDAT_1 <= RECDAT;
   RECLRCLK <= ssmClocking_0_outRECLRCLK;
@@ -182,6 +191,13 @@ clk_wiz_0: component design_1_clk_wiz_0_0
       clk_out1 => clk_wiz_0_clk_out1,
       locked => clk_wiz_0_locked,
       reset => xlconstant_0_dout(0)
+    );
+i2sBypass_0: component design_1_i2sBypass_0_0
+     port map (
+      inBCLK => ssmClocking_0_outBCLK,
+      inRECDAT => RECDAT_1,
+      inRST => util_vector_logic_0_Res(0),
+      outPBDAT => i2sBypass_0_outPBDAT
     );
 processing_system7_0: component design_1_processing_system7_0_0
      port map (

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Feb 25 10:07:26 2020" VIVADOVERSION="2017.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Feb 25 12:00:28 2020" VIVADOVERSION="2017.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:1.0" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -53,12 +53,12 @@
     </PORT>
     <PORT DIR="I" NAME="RECDAT" SIGIS="undef" SIGNAME="External_Ports_RECDAT">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="External_Ports" PORT="PBDAT"/>
+        <CONNECTION INSTANCE="i2sBypass_0" PORT="inRECDAT"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="PBDAT" SIGIS="undef" SIGNAME="External_Ports_RECDAT">
+    <PORT DIR="O" NAME="PBDAT" SIGIS="undef" SIGNAME="i2sBypass_0_outPBDAT">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="External_Ports" PORT="RECDAT"/>
+        <CONNECTION INSTANCE="i2sBypass_0" PORT="outPBDAT"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="O" NAME="RECLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outRECLRCLK">
@@ -719,6 +719,36 @@
         <PORT DIR="O" NAME="locked" SIGIS="undef" SIGNAME="clk_wiz_0_locked">
           <CONNECTIONS>
             <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/i2sBypass_0" HWVERSION="1.0" INSTANCE="i2sBypass_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="i2sBypass" VLNV="domain.local:user:i2sBypass:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_i2sBypass_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="inBCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outBCLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ssmClocking_0" PORT="outBCLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="inRST" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="inRECDAT" SIGIS="undef" SIGNAME="External_Ports_RECDAT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RECDAT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="outPBDAT" SIGIS="undef" SIGNAME="i2sBypass_0_outPBDAT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PBDAT"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -1770,6 +1800,7 @@
         <PORT DIR="O" NAME="outBCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outBCLK">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="BCLK"/>
+            <CONNECTION INSTANCE="i2sBypass_0" PORT="inBCLK"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="outRECLRCLK" SIGIS="undef" SIGNAME="ssmClocking_0_outRECLRCLK">
@@ -1808,6 +1839,7 @@
         <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ssmClocking_0" PORT="inRST"/>
+            <CONNECTION INSTANCE="i2sBypass_0" PORT="inRST"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

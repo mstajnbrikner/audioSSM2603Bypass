@@ -48,6 +48,10 @@
   "../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
 -endlib
 -makelib ies/xil_defaultlib \
+  "../../../bd/design_1/ipshared/30fc/i2sBypass.vhd" \
+  "../../../bd/design_1/ip/design_1_i2sBypass_0_0/sim/design_1_i2sBypass_0_0.vhd" \
+-endlib
+-makelib ies/xil_defaultlib \
   glbl.v
 -endlib
 
