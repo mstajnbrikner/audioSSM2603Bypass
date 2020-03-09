@@ -37,7 +37,7 @@
   "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 -endlib
 -makelib ies/xil_defaultlib \
-  "../../../bd/design_1/ipshared/5f08/ssmClocking.vhd" \
+  "../../../bd/design_1/ipshared/250f/ssmClocking.vhd" \
   "../../../bd/design_1/ip/design_1_ssmClocking_0_0/sim/design_1_ssmClocking_0_0.vhd" \
 -endlib
 -makelib ies/util_vector_logic_v2_0_1 \
@@ -48,7 +48,7 @@
   "../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
 -endlib
 -makelib ies/xil_defaultlib \
-  "../../../bd/design_1/ipshared/30fc/i2sBypass.vhd" \
+  "../../../bd/design_1/ipshared/dd26/i2sBypass.vhd" \
   "../../../bd/design_1/ip/design_1_i2sBypass_0_0/sim/design_1_i2sBypass_0_0.vhd" \
 -endlib
 -makelib ies/xil_defaultlib \

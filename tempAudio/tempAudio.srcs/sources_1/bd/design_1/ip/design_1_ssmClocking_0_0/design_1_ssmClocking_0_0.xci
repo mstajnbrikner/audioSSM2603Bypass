@@ -7,7 +7,7 @@
   <spirit:componentInstances>
     <spirit:componentInstance>
       <spirit:instanceName>design_1_ssmClocking_0_0</spirit:instanceName>
-      <spirit:componentRef spirit:vendor="domain.local" spirit:library="user" spirit:name="ssmClocking" spirit:version="1.1"/>
+      <spirit:componentRef spirit:vendor="domain.local" spirit:library="user" spirit:name="ssmClocking" spirit:version="1.2"/>
       <spirit:configurableElementValues>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">design_1_ssmClocking_0_0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.ARCHITECTURE">zynq</spirit:configurableElementValue>

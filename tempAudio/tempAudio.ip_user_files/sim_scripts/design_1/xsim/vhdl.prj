@@ -1,6 +1,6 @@
 vhdl xil_defaultlib "../../../bd/design_1/hdl/design_1.vhd" 
-vhdl xil_defaultlib "../../../bd/design_1/ipshared/5f08/ssmClocking.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ipshared/250f/ssmClocking.vhd" 
 vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_ssmClocking_0_0/sim/design_1_ssmClocking_0_0.vhd" 
-vhdl xil_defaultlib "../../../bd/design_1/ipshared/30fc/i2sBypass.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ipshared/dd26/i2sBypass.vhd" 
 vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_i2sBypass_0_0/sim/design_1_i2sBypass_0_0.vhd" 
 nosort

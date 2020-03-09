@@ -47,7 +47,6 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z010clg400-1
   set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
@@ -55,8 +54,8 @@ set rc [catch {
   set_property webtalk.parent_dir D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/wt [current_project]
   set_property parent.project_path D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.xpr [current_project]
   set_property ip_repo_paths {
-  d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/i2sBypassIP
-  d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/clockManagerIP
+  D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/i2sBypassIP
+  D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/clockManagerIP
 } [current_project]
   set_property ip_output_repo D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

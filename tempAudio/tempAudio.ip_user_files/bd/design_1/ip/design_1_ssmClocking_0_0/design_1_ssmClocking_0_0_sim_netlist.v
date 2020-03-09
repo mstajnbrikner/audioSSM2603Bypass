@@ -1,7 +1,7 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-// Date        : Tue Feb 25 10:06:28 2020
+// Date        : Tue Mar  3 17:58:34 2020
 // Host        : rtrkos034 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0_sim_netlist.v
@@ -46,14 +46,14 @@ endmodule
 
 (* ORIG_REF_NAME = "ssmClocking" *) 
 module design_1_ssmClocking_0_0_ssmClocking
-   (outMCLK,
-    outBCLK,
+   (outBCLK,
+    outMCLK,
     outPBLRCLK,
     outRECLRCLK,
     inCLK,
     inRST);
-  output outMCLK;
   output outBCLK;
+  output outMCLK;
   output outPBLRCLK;
   output outRECLRCLK;
   input inCLK;
@@ -67,13 +67,9 @@ module design_1_ssmClocking_0_0_ssmClocking
   wire outRECLRCLK;
   wire \sBCLKcount[0]_i_1_n_0 ;
   wire \sBCLKcount[1]_i_1_n_0 ;
-  wire \sBCLKcount[2]_i_1_n_0 ;
   wire \sBCLKcount_reg_n_0_[0] ;
   wire \sBCLKcount_reg_n_0_[1] ;
-  wire \sBCLKcount_reg_n_0_[2] ;
   wire [7:0]sLRcount;
-  wire \sLRcount[4]_i_2_n_0 ;
-  wire \sLRcount[7]_i_2_n_0 ;
   wire [7:0]sLRcount_reg__0;
   wire soutBCLK_i_1_n_0;
   wire soutMCLK_i_1_n_0;
@@ -85,28 +81,19 @@ module design_1_ssmClocking_0_0_ssmClocking
     outPBLRCLK_INST_0
        (.I0(outRECLRCLK),
         .O(outPBLRCLK));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
-  LUT3 #(
-    .INIT(8'h0B)) 
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  LUT1 #(
+    .INIT(2'h1)) 
     \sBCLKcount[0]_i_1 
-       (.I0(\sBCLKcount_reg_n_0_[1] ),
-        .I1(\sBCLKcount_reg_n_0_[2] ),
-        .I2(\sBCLKcount_reg_n_0_[0] ),
+       (.I0(\sBCLKcount_reg_n_0_[0] ),
         .O(\sBCLKcount[0]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \sBCLKcount[1]_i_1 
        (.I0(\sBCLKcount_reg_n_0_[1] ),
         .I1(\sBCLKcount_reg_n_0_[0] ),
         .O(\sBCLKcount[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
-  LUT3 #(
-    .INIT(8'h68)) 
-    \sBCLKcount[2]_i_1 
-       (.I0(\sBCLKcount_reg_n_0_[1] ),
-        .I1(\sBCLKcount_reg_n_0_[2] ),
-        .I2(\sBCLKcount_reg_n_0_[0] ),
-        .O(\sBCLKcount[2]_i_1_n_0 ));
   FDCE \sBCLKcount_reg[0] 
        (.C(inCLK),
         .CE(1'b1),
@@ -119,100 +106,74 @@ module design_1_ssmClocking_0_0_ssmClocking
         .CLR(inRST),
         .D(\sBCLKcount[1]_i_1_n_0 ),
         .Q(\sBCLKcount_reg_n_0_[1] ));
-  FDCE \sBCLKcount_reg[2] 
-       (.C(inCLK),
-        .CE(1'b1),
-        .CLR(inRST),
-        .D(\sBCLKcount[2]_i_1_n_0 ),
-        .Q(\sBCLKcount_reg_n_0_[2] ));
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \sLRcount[0]_i_1 
        (.I0(sLRcount_reg__0[0]),
         .O(sLRcount[0]));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT3 #(
-    .INIT(8'h38)) 
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  LUT2 #(
+    .INIT(4'h6)) 
     \sLRcount[1]_i_1 
-       (.I0(soutRECLRCLK_i_2_n_0),
-        .I1(sLRcount_reg__0[0]),
-        .I2(sLRcount_reg__0[1]),
-        .O(sLRcount[1]));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT3 #(
-    .INIT(8'h78)) 
-    \sLRcount[2]_i_1 
-       (.I0(sLRcount_reg__0[1]),
-        .I1(sLRcount_reg__0[0]),
-        .I2(sLRcount_reg__0[2]),
-        .O(sLRcount[2]));
-  LUT6 #(
-    .INIT(64'hFFFFC0001111C000)) 
-    \sLRcount[3]_i_1 
-       (.I0(sLRcount_reg__0[4]),
+       (.I0(sLRcount_reg__0[0]),
         .I1(sLRcount_reg__0[1]),
-        .I2(sLRcount_reg__0[2]),
-        .I3(sLRcount_reg__0[0]),
-        .I4(sLRcount_reg__0[3]),
-        .I5(\sLRcount[4]_i_2_n_0 ),
-        .O(sLRcount[3]));
-  LUT6 #(
-    .INIT(64'hFFFF800055558000)) 
-    \sLRcount[4]_i_1 
-       (.I0(sLRcount_reg__0[3]),
-        .I1(sLRcount_reg__0[2]),
-        .I2(sLRcount_reg__0[0]),
-        .I3(sLRcount_reg__0[1]),
-        .I4(sLRcount_reg__0[4]),
-        .I5(\sLRcount[4]_i_2_n_0 ),
-        .O(sLRcount[4]));
-  LUT6 #(
-    .INIT(64'h0F0FFFFEFFFFFFFF)) 
-    \sLRcount[4]_i_2 
-       (.I0(sLRcount_reg__0[6]),
-        .I1(sLRcount_reg__0[7]),
-        .I2(sLRcount_reg__0[2]),
-        .I3(sLRcount_reg__0[5]),
-        .I4(sLRcount_reg__0[1]),
-        .I5(sLRcount_reg__0[0]),
-        .O(\sLRcount[4]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h7FFFFFFF80000000)) 
-    \sLRcount[5]_i_1 
-       (.I0(sLRcount_reg__0[3]),
-        .I1(sLRcount_reg__0[4]),
-        .I2(sLRcount_reg__0[1]),
-        .I3(sLRcount_reg__0[0]),
-        .I4(sLRcount_reg__0[2]),
-        .I5(sLRcount_reg__0[5]),
-        .O(sLRcount[5]));
-  LUT5 #(
-    .INIT(32'hDFFF2000)) 
-    \sLRcount[6]_i_1 
-       (.I0(sLRcount_reg__0[5]),
-        .I1(\sLRcount[7]_i_2_n_0 ),
-        .I2(sLRcount_reg__0[4]),
-        .I3(sLRcount_reg__0[3]),
-        .I4(sLRcount_reg__0[6]),
-        .O(sLRcount[6]));
-  LUT6 #(
-    .INIT(64'hFF7FFFFF00800000)) 
-    \sLRcount[7]_i_1 
-       (.I0(sLRcount_reg__0[6]),
-        .I1(sLRcount_reg__0[3]),
-        .I2(sLRcount_reg__0[4]),
-        .I3(\sLRcount[7]_i_2_n_0 ),
-        .I4(sLRcount_reg__0[5]),
-        .I5(sLRcount_reg__0[7]),
-        .O(sLRcount[7]));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+        .O(sLRcount[1]));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
-    .INIT(8'h7F)) 
-    \sLRcount[7]_i_2 
-       (.I0(sLRcount_reg__0[1]),
+    .INIT(8'h6A)) 
+    \sLRcount[2]_i_1 
+       (.I0(sLRcount_reg__0[2]),
+        .I1(sLRcount_reg__0[1]),
+        .I2(sLRcount_reg__0[0]),
+        .O(sLRcount[2]));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  LUT4 #(
+    .INIT(16'h6AAA)) 
+    \sLRcount[3]_i_1 
+       (.I0(sLRcount_reg__0[3]),
         .I1(sLRcount_reg__0[0]),
-        .I2(sLRcount_reg__0[2]),
-        .O(\sLRcount[7]_i_2_n_0 ));
+        .I2(sLRcount_reg__0[1]),
+        .I3(sLRcount_reg__0[2]),
+        .O(sLRcount[3]));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT5 #(
+    .INIT(32'h6AAAAAAA)) 
+    \sLRcount[4]_i_1 
+       (.I0(sLRcount_reg__0[4]),
+        .I1(sLRcount_reg__0[2]),
+        .I2(sLRcount_reg__0[3]),
+        .I3(sLRcount_reg__0[0]),
+        .I4(sLRcount_reg__0[1]),
+        .O(sLRcount[4]));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT5 #(
+    .INIT(32'h0FFFE000)) 
+    \sLRcount[5]_i_1 
+       (.I0(sLRcount_reg__0[7]),
+        .I1(sLRcount_reg__0[6]),
+        .I2(sLRcount_reg__0[4]),
+        .I3(soutRECLRCLK_i_2_n_0),
+        .I4(sLRcount_reg__0[5]),
+        .O(sLRcount[5]));
+  LUT4 #(
+    .INIT(16'h6AAA)) 
+    \sLRcount[6]_i_1 
+       (.I0(sLRcount_reg__0[6]),
+        .I1(sLRcount_reg__0[4]),
+        .I2(soutRECLRCLK_i_2_n_0),
+        .I3(sLRcount_reg__0[5]),
+        .O(sLRcount[6]));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT5 #(
+    .INIT(32'h6AAAAAAA)) 
+    \sLRcount[7]_i_1 
+       (.I0(sLRcount_reg__0[7]),
+        .I1(sLRcount_reg__0[5]),
+        .I2(soutRECLRCLK_i_2_n_0),
+        .I3(sLRcount_reg__0[4]),
+        .I4(sLRcount_reg__0[6]),
+        .O(sLRcount[7]));
   FDCE #(
     .IS_C_INVERTED(1'b1)) 
     \sLRcount_reg[0] 
@@ -277,13 +238,12 @@ module design_1_ssmClocking_0_0_ssmClocking
         .CLR(inRST),
         .D(sLRcount[7]),
         .Q(sLRcount_reg__0[7]));
-  LUT4 #(
-    .INIT(16'hFB04)) 
+  LUT3 #(
+    .INIT(8'h78)) 
     soutBCLK_i_1
        (.I0(\sBCLKcount_reg_n_0_[1] ),
-        .I1(\sBCLKcount_reg_n_0_[2] ),
-        .I2(\sBCLKcount_reg_n_0_[0] ),
-        .I3(outBCLK),
+        .I1(\sBCLKcount_reg_n_0_[0] ),
+        .I2(outBCLK),
         .O(soutBCLK_i_1_n_0));
   FDPE soutBCLK_reg
        (.C(inCLK),
@@ -302,24 +262,24 @@ module design_1_ssmClocking_0_0_ssmClocking
         .CLR(inRST),
         .D(soutMCLK_i_1_n_0),
         .Q(outMCLK));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT4 #(
-    .INIT(16'hFB04)) 
-    soutRECLRCLK_i_1
-       (.I0(soutRECLRCLK_i_2_n_0),
-        .I1(sLRcount_reg__0[0]),
-        .I2(sLRcount_reg__0[1]),
-        .I3(outRECLRCLK),
-        .O(soutRECLRCLK_i_1_n_0));
   LUT6 #(
-    .INIT(64'hFFFEFFFFFFFFFFFF)) 
+    .INIT(64'hFFFDFFFF00020000)) 
+    soutRECLRCLK_i_1
+       (.I0(sLRcount_reg__0[4]),
+        .I1(sLRcount_reg__0[5]),
+        .I2(sLRcount_reg__0[7]),
+        .I3(sLRcount_reg__0[6]),
+        .I4(soutRECLRCLK_i_2_n_0),
+        .I5(outRECLRCLK),
+        .O(soutRECLRCLK_i_1_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT4 #(
+    .INIT(16'h8000)) 
     soutRECLRCLK_i_2
-       (.I0(sLRcount_reg__0[6]),
-        .I1(sLRcount_reg__0[7]),
-        .I2(sLRcount_reg__0[2]),
-        .I3(sLRcount_reg__0[5]),
-        .I4(sLRcount_reg__0[4]),
-        .I5(sLRcount_reg__0[3]),
+       (.I0(sLRcount_reg__0[1]),
+        .I1(sLRcount_reg__0[0]),
+        .I2(sLRcount_reg__0[3]),
+        .I3(sLRcount_reg__0[2]),
         .O(soutRECLRCLK_i_2_n_0));
   FDCE #(
     .IS_C_INVERTED(1'b1)) 

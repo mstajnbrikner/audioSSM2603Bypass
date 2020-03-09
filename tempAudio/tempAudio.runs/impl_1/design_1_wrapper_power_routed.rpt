@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Tue Feb 25 12:02:57 2020
+| Date             : Thu Mar  5 18:09:03 2020
 | Host             : rtrkos034 running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.745 |
-| Dynamic (W)              | 1.617 |
+| Total On-Chip Power (W)  | 1.775 |
+| Dynamic (W)              | 1.647 |
 | Device Static (W)        | 0.128 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 64.9  |
-| Junction Temperature (C) | 45.1  |
+| Max Ambient (C)          | 64.5  |
+| Junction Temperature (C) | 45.5  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -50,17 +50,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |      203 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       18 |     17600 |            0.10 |
-|   Register     |    <0.001 |       41 |     35200 |            0.12 |
+| Slice Logic    |    <0.001 |      205 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       13 |     17600 |            0.07 |
+|   Register     |    <0.001 |       46 |     35200 |            0.13 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |      140 |       --- |             --- |
-| Signals        |    <0.001 |       58 |       --- |             --- |
-| PLL            |     0.106 |        1 |         2 |           50.00 |
-| I/O            |     0.004 |       10 |       100 |           10.00 |
+| Signals        |    <0.001 |       60 |       --- |             --- |
+| PLL            |     0.136 |        1 |         2 |           50.00 |
+| I/O            |     0.005 |       10 |       100 |           10.00 |
 | PS7            |     1.506 |        1 |       --- |             --- |
 | Static Power   |     0.128 |          |           |                 |
-| Total          |     1.745 |          |           |                 |
+| Total          |     1.775 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,8 +70,8 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.018 |       0.011 |      0.007 |
-| Vccaux    |       1.800 |     0.065 |       0.053 |      0.012 |
+| Vccint    |       1.000 |     0.023 |       0.016 |      0.007 |
+| Vccaux    |       1.800 |     0.079 |       0.067 |      0.012 |
 | Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -136,8 +136,8 @@ Table of Contents
 | clk                             | clk                                                     |             8.0 |
 | clk_out1_design_1_clk_wiz_0_0   | design_1_i/clk_wiz_0/inst/clk_out1_design_1_clk_wiz_0_0 |            40.7 |
 | clk_out1_design_1_clk_wiz_0_0_1 | design_1_i/clk_wiz_0/inst/clk_out1_design_1_clk_wiz_0_0 |            40.7 |
-| clkfbout_design_1_clk_wiz_0_0   | design_1_i/clk_wiz_0/inst/clkfbout_design_1_clk_wiz_0_0 |            24.0 |
-| clkfbout_design_1_clk_wiz_0_0_1 | design_1_i/clk_wiz_0/inst/clkfbout_design_1_clk_wiz_0_0 |            24.0 |
+| clkfbout_design_1_clk_wiz_0_0   | design_1_i/clk_wiz_0/inst/clkfbout_design_1_clk_wiz_0_0 |            40.0 |
+| clkfbout_design_1_clk_wiz_0_0_1 | design_1_i/clk_wiz_0/inst/clkfbout_design_1_clk_wiz_0_0 |            40.0 |
 | sys_clk_pin                     | clk                                                     |             8.0 |
 +---------------------------------+---------------------------------------------------------+-----------------+
 
@@ -151,10 +151,10 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.617 |
-|   design_1_i             |     1.613 |
-|     clk_wiz_0            |     0.106 |
-|       inst               |     0.106 |
+| design_1_wrapper         |     1.647 |
+|   design_1_i             |     1.643 |
+|     clk_wiz_0            |     0.136 |
+|       inst               |     0.136 |
 |     i2sBypass_0          |    <0.001 |
 |       U0                 |    <0.001 |
 |     processing_system7_0 |     1.507 |

@@ -294,24 +294,24 @@ set_property IOSTANDARD LVCMOS33 [get_ports iic_0_sda_io]
 
 ##Pmod Header JE
 ##IO_L4P_T0_34
-#set_property PACKAGE_PIN V12 [get_ports {je[0]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {je[0]}]
+set_property PACKAGE_PIN V12 [get_ports {BCLK_pmod}]
+set_property IOSTANDARD LVCMOS33 [get_ports {BCLK_pmod}]
 
 ##IO_L18N_T2_34
-#set_property PACKAGE_PIN W16 [get_ports {je[1]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {je[1]}]
+set_property PACKAGE_PIN W16 [get_ports {PBDAT_pmod}]
+set_property IOSTANDARD LVCMOS33 [get_ports {PBDAT_pmod}]
 
 ##IO_25_35
-#set_property PACKAGE_PIN J15 [get_ports {je[2]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {je[2]}]
+set_property PACKAGE_PIN J15 [get_ports {PBLRCLK_pmod}]
+set_property IOSTANDARD LVCMOS33 [get_ports {PBLRCLK_pmod}]
 
 ##IO_L19P_T3_35
-#set_property PACKAGE_PIN H15 [get_ports {je[3]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {je[3]}]
+set_property PACKAGE_PIN H15 [get_ports {RECDAT_pmod}]
+set_property IOSTANDARD LVCMOS33 [get_ports {RECDAT_pmod}]
 
 ##IO_L3N_T0_DQS_34
-#set_property PACKAGE_PIN V13 [get_ports {je[4]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {je[4]}]
+set_property PACKAGE_PIN V13 [get_ports {RECLRCLK_pmod}]
+set_property IOSTANDARD LVCMOS33 [get_ports {RECLRCLK_pmod}]
 
 ##IO_L9N_T1_DQS_34
 #set_property PACKAGE_PIN U17 [get_ports {je[5]}]

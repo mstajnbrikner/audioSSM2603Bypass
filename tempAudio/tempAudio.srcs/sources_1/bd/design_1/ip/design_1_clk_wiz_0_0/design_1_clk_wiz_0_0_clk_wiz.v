@@ -56,7 +56,7 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// clk_out1____24.573______0.000______50.0______240.371____192.574
+// clk_out1____24.576______0.000______50.0______173.682____220.897
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -120,10 +120,10 @@ wire clk_in2_design_1_clk_wiz_0_0;
   #(.BANDWIDTH            ("OPTIMIZED"),
     .COMPENSATION         ("ZHOLD"),
     .STARTUP_WAIT         ("FALSE"),
-    .DIVCLK_DIVIDE        (3),
-    .CLKFBOUT_MULT        (23),
+    .DIVCLK_DIVIDE        (5),
+    .CLKFBOUT_MULT        (58),
     .CLKFBOUT_PHASE       (0.000),
-    .CLKOUT0_DIVIDE       (39),
+    .CLKOUT0_DIVIDE       (59),
     .CLKOUT0_PHASE        (0.000),
     .CLKOUT0_DUTY_CYCLE   (0.500),
     .CLKIN1_PERIOD        (8.000))

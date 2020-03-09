@@ -1,7 +1,7 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
---Date        : Tue Feb 25 12:00:28 2020
+--Date        : Thu Mar  5 18:06:38 2020
 --Host        : rtrkos034 running 64-bit major release  (build 9200)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -81,10 +81,10 @@ architecture STRUCTURE of design_1_wrapper is
     MCLK : out STD_LOGIC;
     BCLK : out STD_LOGIC;
     MUTE : out STD_LOGIC_VECTOR ( 0 to 0 );
-    RECDAT : in STD_LOGIC;
-    PBDAT : out STD_LOGIC;
     RECLRCLK : out STD_LOGIC;
-    PBLRCLK : out STD_LOGIC_VECTOR ( 0 to 0 )
+    PBLRCLK : out STD_LOGIC_VECTOR ( 0 to 0 );
+    PBDAT : out STD_LOGIC;
+    RECDAT : in STD_LOGIC
   );
   end component design_1;
   component IOBUF is

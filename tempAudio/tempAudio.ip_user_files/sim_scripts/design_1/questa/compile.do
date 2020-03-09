@@ -62,7 +62,7 @@ vlog -work xil_defaultlib -64 "+incdir+../../../../tempAudio.srcs/sources_1/bd/d
 "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 
 vcom -work xil_defaultlib -64 -93 \
-"../../../bd/design_1/ipshared/5f08/ssmClocking.vhd" \
+"../../../bd/design_1/ipshared/250f/ssmClocking.vhd" \
 "../../../bd/design_1/ip/design_1_ssmClocking_0_0/sim/design_1_ssmClocking_0_0.vhd" \
 
 vlog -work util_vector_logic_v2_0_1 -64 "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/2ad9/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/39ca/hdl/verilog" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/1d61/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/9c7f" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/6eb1/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/2ad9/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/39ca/hdl/verilog" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/1d61/hdl" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/9c7f" "+incdir+../../../../tempAudio.srcs/sources_1/bd/design_1/ipshared/6eb1/hdl" \
@@ -73,7 +73,7 @@ vlog -work xil_defaultlib -64 "+incdir+../../../../tempAudio.srcs/sources_1/bd/d
 "../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
 
 vcom -work xil_defaultlib -64 -93 \
-"../../../bd/design_1/ipshared/30fc/i2sBypass.vhd" \
+"../../../bd/design_1/ipshared/dd26/i2sBypass.vhd" \
 "../../../bd/design_1/ip/design_1_i2sBypass_0_0/sim/design_1_i2sBypass_0_0.vhd" \
 
 vlog -work xil_defaultlib \

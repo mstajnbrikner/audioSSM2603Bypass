@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: domain.local:user:ssmClocking:1.1
+-- IP VLNV: domain.local:user:ssmClocking:1.2
 -- IP Revision: 1
 
 LIBRARY ieee;

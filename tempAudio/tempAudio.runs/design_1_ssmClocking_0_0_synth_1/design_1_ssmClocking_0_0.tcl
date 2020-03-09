@@ -15,7 +15,10 @@ set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
-set_property ip_repo_paths d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/clockManagerIP [current_project]
+set_property ip_repo_paths {
+  d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/i2sBypassIP
+  d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/clockManagerIP
+} [current_project]
 set_property ip_output_repo d:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_ip -quiet D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0.xci

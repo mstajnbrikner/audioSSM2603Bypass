@@ -175,9 +175,9 @@ CONFIG.FREQ_HZ {125000000} \
   set clk_wiz_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:5.4 clk_wiz_0 ]
   set_property -dict [ list \
 CONFIG.CLKOUT1_DRIVES {BUFG} \
-CONFIG.CLKOUT1_JITTER {240.371} \
-CONFIG.CLKOUT1_PHASE_ERROR {192.574} \
-CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {24.57} \
+CONFIG.CLKOUT1_JITTER {173.682} \
+CONFIG.CLKOUT1_PHASE_ERROR {220.897} \
+CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {24.578} \
 CONFIG.CLKOUT2_DRIVES {BUFG} \
 CONFIG.CLKOUT3_DRIVES {BUFG} \
 CONFIG.CLKOUT4_DRIVES {BUFG} \
@@ -185,17 +185,17 @@ CONFIG.CLKOUT5_DRIVES {BUFG} \
 CONFIG.CLKOUT6_DRIVES {BUFG} \
 CONFIG.CLKOUT7_DRIVES {BUFG} \
 CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} \
-CONFIG.MMCM_CLKFBOUT_MULT_F {23} \
-CONFIG.MMCM_CLKIN2_PERIOD {10.0} \
-CONFIG.MMCM_CLKOUT0_DIVIDE_F {39} \
+CONFIG.MMCM_CLKFBOUT_MULT_F {58} \
+CONFIG.MMCM_CLKIN2_PERIOD {10.000} \
+CONFIG.MMCM_CLKOUT0_DIVIDE_F {59} \
 CONFIG.MMCM_COMPENSATION {ZHOLD} \
-CONFIG.MMCM_DIVCLK_DIVIDE {3} \
+CONFIG.MMCM_DIVCLK_DIVIDE {5} \
 CONFIG.PRIMITIVE {PLL} \
 CONFIG.USE_BOARD_FLOW {true} \
  ] $clk_wiz_0
 
   # Create instance: i2sBypass_0, and set properties
-  set i2sBypass_0 [ create_bd_cell -type ip -vlnv domain.local:user:i2sBypass:1.0 i2sBypass_0 ]
+  set i2sBypass_0 [ create_bd_cell -type ip -vlnv domain.local:user:i2sBypass:1.1 i2sBypass_0 ]
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]
@@ -339,7 +339,7 @@ CONFIG.PCW_USE_M_AXI_GP0 {0} \
  ] $processing_system7_0
 
   # Create instance: ssmClocking_0, and set properties
-  set ssmClocking_0 [ create_bd_cell -type ip -vlnv domain.local:user:ssmClocking:1.1 ssmClocking_0 ]
+  set ssmClocking_0 [ create_bd_cell -type ip -vlnv domain.local:user:ssmClocking:1.2 ssmClocking_0 ]
 
   # Create instance: util_vector_logic_0, and set properties
   set util_vector_logic_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0 ]

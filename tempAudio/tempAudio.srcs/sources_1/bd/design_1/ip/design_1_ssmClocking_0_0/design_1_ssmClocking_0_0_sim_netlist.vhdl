@@ -1,7 +1,7 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
--- Date        : Tue Feb 25 10:06:28 2020
+-- Date        : Tue Mar  3 17:58:34 2020
 -- Host        : rtrkos034 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               D:/Stajnbrikner_studentskiRad19-20/DEMO_PROJECTS/tempAudio/tempAudio/tempAudio.srcs/sources_1/bd/design_1/ip/design_1_ssmClocking_0_0/design_1_ssmClocking_0_0_sim_netlist.vhdl
@@ -16,8 +16,8 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_1_ssmClocking_0_0_ssmClocking is
   port (
-    outMCLK : out STD_LOGIC;
     outBCLK : out STD_LOGIC;
+    outMCLK : out STD_LOGIC;
     outPBLRCLK : out STD_LOGIC;
     outRECLRCLK : out STD_LOGIC;
     inCLK : in STD_LOGIC;
@@ -33,25 +33,25 @@ architecture STRUCTURE of design_1_ssmClocking_0_0_ssmClocking is
   signal \^outreclrclk\ : STD_LOGIC;
   signal \sBCLKcount[0]_i_1_n_0\ : STD_LOGIC;
   signal \sBCLKcount[1]_i_1_n_0\ : STD_LOGIC;
-  signal \sBCLKcount[2]_i_1_n_0\ : STD_LOGIC;
   signal \sBCLKcount_reg_n_0_[0]\ : STD_LOGIC;
   signal \sBCLKcount_reg_n_0_[1]\ : STD_LOGIC;
-  signal \sBCLKcount_reg_n_0_[2]\ : STD_LOGIC;
   signal sLRcount : STD_LOGIC_VECTOR ( 7 downto 0 );
-  signal \sLRcount[4]_i_2_n_0\ : STD_LOGIC;
-  signal \sLRcount[7]_i_2_n_0\ : STD_LOGIC;
   signal \sLRcount_reg__0\ : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal soutBCLK_i_1_n_0 : STD_LOGIC;
   signal soutMCLK_i_1_n_0 : STD_LOGIC;
   signal soutRECLRCLK_i_1_n_0 : STD_LOGIC;
   signal soutRECLRCLK_i_2_n_0 : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
-  attribute SOFT_HLUTNM of \sBCLKcount[0]_i_1\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \sBCLKcount[2]_i_1\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \sLRcount[1]_i_1\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \sLRcount[2]_i_1\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \sLRcount[7]_i_2\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of soutRECLRCLK_i_1 : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \sBCLKcount[0]_i_1\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \sBCLKcount[1]_i_1\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \sLRcount[0]_i_1\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \sLRcount[1]_i_1\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \sLRcount[2]_i_1\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \sLRcount[3]_i_1\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \sLRcount[4]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \sLRcount[5]_i_1\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \sLRcount[7]_i_1\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of soutRECLRCLK_i_2 : label is "soft_lutpair1";
 begin
   outBCLK <= \^outbclk\;
   outMCLK <= \^outmclk\;
@@ -64,14 +64,12 @@ outPBLRCLK_INST_0: unisim.vcomponents.LUT1
       I0 => \^outreclrclk\,
       O => outPBLRCLK
     );
-\sBCLKcount[0]_i_1\: unisim.vcomponents.LUT3
+\sBCLKcount[0]_i_1\: unisim.vcomponents.LUT1
     generic map(
-      INIT => X"0B"
+      INIT => X"1"
     )
         port map (
-      I0 => \sBCLKcount_reg_n_0_[1]\,
-      I1 => \sBCLKcount_reg_n_0_[2]\,
-      I2 => \sBCLKcount_reg_n_0_[0]\,
+      I0 => \sBCLKcount_reg_n_0_[0]\,
       O => \sBCLKcount[0]_i_1_n_0\
     );
 \sBCLKcount[1]_i_1\: unisim.vcomponents.LUT2
@@ -82,16 +80,6 @@ outPBLRCLK_INST_0: unisim.vcomponents.LUT1
       I0 => \sBCLKcount_reg_n_0_[1]\,
       I1 => \sBCLKcount_reg_n_0_[0]\,
       O => \sBCLKcount[1]_i_1_n_0\
-    );
-\sBCLKcount[2]_i_1\: unisim.vcomponents.LUT3
-    generic map(
-      INIT => X"68"
-    )
-        port map (
-      I0 => \sBCLKcount_reg_n_0_[1]\,
-      I1 => \sBCLKcount_reg_n_0_[2]\,
-      I2 => \sBCLKcount_reg_n_0_[0]\,
-      O => \sBCLKcount[2]_i_1_n_0\
     );
 \sBCLKcount_reg[0]\: unisim.vcomponents.FDCE
      port map (
@@ -109,14 +97,6 @@ outPBLRCLK_INST_0: unisim.vcomponents.LUT1
       D => \sBCLKcount[1]_i_1_n_0\,
       Q => \sBCLKcount_reg_n_0_[1]\
     );
-\sBCLKcount_reg[2]\: unisim.vcomponents.FDCE
-     port map (
-      C => inCLK,
-      CE => '1',
-      CLR => inRST,
-      D => \sBCLKcount[2]_i_1_n_0\,
-      Q => \sBCLKcount_reg_n_0_[2]\
-    );
 \sLRcount[0]_i_1\: unisim.vcomponents.LUT1
     generic map(
       INIT => X"1"
@@ -125,112 +105,82 @@ outPBLRCLK_INST_0: unisim.vcomponents.LUT1
       I0 => \sLRcount_reg__0\(0),
       O => sLRcount(0)
     );
-\sLRcount[1]_i_1\: unisim.vcomponents.LUT3
+\sLRcount[1]_i_1\: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"38"
+      INIT => X"6"
     )
         port map (
-      I0 => soutRECLRCLK_i_2_n_0,
-      I1 => \sLRcount_reg__0\(0),
-      I2 => \sLRcount_reg__0\(1),
+      I0 => \sLRcount_reg__0\(0),
+      I1 => \sLRcount_reg__0\(1),
       O => sLRcount(1)
     );
 \sLRcount[2]_i_1\: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"78"
+      INIT => X"6A"
     )
         port map (
-      I0 => \sLRcount_reg__0\(1),
-      I1 => \sLRcount_reg__0\(0),
-      I2 => \sLRcount_reg__0\(2),
+      I0 => \sLRcount_reg__0\(2),
+      I1 => \sLRcount_reg__0\(1),
+      I2 => \sLRcount_reg__0\(0),
       O => sLRcount(2)
     );
-\sLRcount[3]_i_1\: unisim.vcomponents.LUT6
+\sLRcount[3]_i_1\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"FFFFC0001111C000"
+      INIT => X"6AAA"
+    )
+        port map (
+      I0 => \sLRcount_reg__0\(3),
+      I1 => \sLRcount_reg__0\(0),
+      I2 => \sLRcount_reg__0\(1),
+      I3 => \sLRcount_reg__0\(2),
+      O => sLRcount(3)
+    );
+\sLRcount[4]_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"6AAAAAAA"
     )
         port map (
       I0 => \sLRcount_reg__0\(4),
-      I1 => \sLRcount_reg__0\(1),
-      I2 => \sLRcount_reg__0\(2),
-      I3 => \sLRcount_reg__0\(0),
-      I4 => \sLRcount_reg__0\(3),
-      I5 => \sLRcount[4]_i_2_n_0\,
-      O => sLRcount(3)
-    );
-\sLRcount[4]_i_1\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"FFFF800055558000"
-    )
-        port map (
-      I0 => \sLRcount_reg__0\(3),
       I1 => \sLRcount_reg__0\(2),
-      I2 => \sLRcount_reg__0\(0),
-      I3 => \sLRcount_reg__0\(1),
-      I4 => \sLRcount_reg__0\(4),
-      I5 => \sLRcount[4]_i_2_n_0\,
+      I2 => \sLRcount_reg__0\(3),
+      I3 => \sLRcount_reg__0\(0),
+      I4 => \sLRcount_reg__0\(1),
       O => sLRcount(4)
     );
-\sLRcount[4]_i_2\: unisim.vcomponents.LUT6
+\sLRcount[5]_i_1\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"0F0FFFFEFFFFFFFF"
+      INIT => X"0FFFE000"
     )
         port map (
-      I0 => \sLRcount_reg__0\(6),
-      I1 => \sLRcount_reg__0\(7),
-      I2 => \sLRcount_reg__0\(2),
-      I3 => \sLRcount_reg__0\(5),
-      I4 => \sLRcount_reg__0\(1),
-      I5 => \sLRcount_reg__0\(0),
-      O => \sLRcount[4]_i_2_n_0\
-    );
-\sLRcount[5]_i_1\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"7FFFFFFF80000000"
-    )
-        port map (
-      I0 => \sLRcount_reg__0\(3),
-      I1 => \sLRcount_reg__0\(4),
-      I2 => \sLRcount_reg__0\(1),
-      I3 => \sLRcount_reg__0\(0),
-      I4 => \sLRcount_reg__0\(2),
-      I5 => \sLRcount_reg__0\(5),
+      I0 => \sLRcount_reg__0\(7),
+      I1 => \sLRcount_reg__0\(6),
+      I2 => \sLRcount_reg__0\(4),
+      I3 => soutRECLRCLK_i_2_n_0,
+      I4 => \sLRcount_reg__0\(5),
       O => sLRcount(5)
     );
-\sLRcount[6]_i_1\: unisim.vcomponents.LUT5
+\sLRcount[6]_i_1\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"DFFF2000"
-    )
-        port map (
-      I0 => \sLRcount_reg__0\(5),
-      I1 => \sLRcount[7]_i_2_n_0\,
-      I2 => \sLRcount_reg__0\(4),
-      I3 => \sLRcount_reg__0\(3),
-      I4 => \sLRcount_reg__0\(6),
-      O => sLRcount(6)
-    );
-\sLRcount[7]_i_1\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"FF7FFFFF00800000"
+      INIT => X"6AAA"
     )
         port map (
       I0 => \sLRcount_reg__0\(6),
-      I1 => \sLRcount_reg__0\(3),
-      I2 => \sLRcount_reg__0\(4),
-      I3 => \sLRcount[7]_i_2_n_0\,
-      I4 => \sLRcount_reg__0\(5),
-      I5 => \sLRcount_reg__0\(7),
-      O => sLRcount(7)
+      I1 => \sLRcount_reg__0\(4),
+      I2 => soutRECLRCLK_i_2_n_0,
+      I3 => \sLRcount_reg__0\(5),
+      O => sLRcount(6)
     );
-\sLRcount[7]_i_2\: unisim.vcomponents.LUT3
+\sLRcount[7]_i_1\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"7F"
+      INIT => X"6AAAAAAA"
     )
         port map (
-      I0 => \sLRcount_reg__0\(1),
-      I1 => \sLRcount_reg__0\(0),
-      I2 => \sLRcount_reg__0\(2),
-      O => \sLRcount[7]_i_2_n_0\
+      I0 => \sLRcount_reg__0\(7),
+      I1 => \sLRcount_reg__0\(5),
+      I2 => soutRECLRCLK_i_2_n_0,
+      I3 => \sLRcount_reg__0\(4),
+      I4 => \sLRcount_reg__0\(6),
+      O => sLRcount(7)
     );
 \sLRcount_reg[0]\: unisim.vcomponents.FDCE
     generic map(
@@ -320,15 +270,14 @@ outPBLRCLK_INST_0: unisim.vcomponents.LUT1
       D => sLRcount(7),
       Q => \sLRcount_reg__0\(7)
     );
-soutBCLK_i_1: unisim.vcomponents.LUT4
+soutBCLK_i_1: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"FB04"
+      INIT => X"78"
     )
         port map (
       I0 => \sBCLKcount_reg_n_0_[1]\,
-      I1 => \sBCLKcount_reg_n_0_[2]\,
-      I2 => \sBCLKcount_reg_n_0_[0]\,
-      I3 => \^outbclk\,
+      I1 => \sBCLKcount_reg_n_0_[0]\,
+      I2 => \^outbclk\,
       O => soutBCLK_i_1_n_0
     );
 soutBCLK_reg: unisim.vcomponents.FDPE
@@ -355,28 +304,28 @@ soutMCLK_reg: unisim.vcomponents.FDCE
       D => soutMCLK_i_1_n_0,
       Q => \^outmclk\
     );
-soutRECLRCLK_i_1: unisim.vcomponents.LUT4
+soutRECLRCLK_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FB04"
+      INIT => X"FFFDFFFF00020000"
     )
         port map (
-      I0 => soutRECLRCLK_i_2_n_0,
-      I1 => \sLRcount_reg__0\(0),
-      I2 => \sLRcount_reg__0\(1),
-      I3 => \^outreclrclk\,
+      I0 => \sLRcount_reg__0\(4),
+      I1 => \sLRcount_reg__0\(5),
+      I2 => \sLRcount_reg__0\(7),
+      I3 => \sLRcount_reg__0\(6),
+      I4 => soutRECLRCLK_i_2_n_0,
+      I5 => \^outreclrclk\,
       O => soutRECLRCLK_i_1_n_0
     );
-soutRECLRCLK_i_2: unisim.vcomponents.LUT6
+soutRECLRCLK_i_2: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"FFFEFFFFFFFFFFFF"
+      INIT => X"8000"
     )
         port map (
-      I0 => \sLRcount_reg__0\(6),
-      I1 => \sLRcount_reg__0\(7),
-      I2 => \sLRcount_reg__0\(2),
-      I3 => \sLRcount_reg__0\(5),
-      I4 => \sLRcount_reg__0\(4),
-      I5 => \sLRcount_reg__0\(3),
+      I0 => \sLRcount_reg__0\(1),
+      I1 => \sLRcount_reg__0\(0),
+      I2 => \sLRcount_reg__0\(3),
+      I3 => \sLRcount_reg__0\(2),
       O => soutRECLRCLK_i_2_n_0
     );
 soutRECLRCLK_reg: unisim.vcomponents.FDCE
